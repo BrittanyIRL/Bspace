@@ -10,7 +10,7 @@ title: Brittany's Corner
 email: brittanyfeenstra@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tech, photo, ramblings and stories from yours truly because I believe in doing it all and doing it well.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://brittanyirl.github.io/Bspace" # the base hostname & protocol for your site
 twitter_username: brittanyIRL
 github_username:  brittanyIRL
