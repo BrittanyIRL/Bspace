@@ -11,7 +11,7 @@ email: brittanyfeenstra@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tech, photo, ramblings and stories from yours truly because I believe in doing it all and doing it well.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://brittanyirl.github.io/bspace" # the base hostname & protocol for your site
 twitter_username: brittanyIRL
 github_username:  brittanyIRL
 
