@@ -1,0 +1,74 @@
+// home template pieces 
+.homeSquare {
+	max-width: 30rem;
+	width: 30rem;
+	min-width: 30rem;
+	max-height: 30rem;
+	height: 30rem;
+	min-height: 30rem;
+	&:hover {
+		filter: grayscale(100%);
+		z-index: 1;
+	}
+}
+
+@mixin categorySet($imageurl){
+	background-image: $imageurl;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#homeContainer {
+	//set category background images 
+	.code {
+		@extend .homeSquare;
+		@include categorySet(url('https://placekitten.com/400/400'));
+	}
+	.life {
+		@extend .homeSquare;
+		@include categorySet(url('https://placekitten.com/405/403'));
+		&:hover {
+			background-color: white;
+			opacity: 0.5;
+		}
+	}
+	.music {
+		@extend .homeSquare;
+		@include categorySet(url('https://placekitten.com/401/402'));
+		&:hover {
+			background-color: white;
+			opacity: 0.5;
+		}
+	}
+	.lists {
+		@extend .homeSquare;
+		@include categorySet(url('https://placekitten.com/400/401'));
+		&:hover {
+			background-color: white;
+			opacity: 0.5;
+		}
+	}
+
+	.excerptHover {
+		display: none;
+		z-index: 300;
+		background-color: white;
+		opacity: 0.8;
+		width: 90%;
+		height: 90%;
+		margin: 5%;
+		padding: 1rem 2rem;
+		.homeTitle{
+			margin-bottom: 0;
+		}
+		.homeCategory{
+			margin-top: 0;
+		}
+		.homeDate{}
+		.homeMore{}
+	}
+
+}
+.show {
+	display: block;
+}
