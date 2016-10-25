@@ -5,7 +5,7 @@ layout: default
 <div class="row" id="homeContainer">
 {% for post in site.posts %}
   {% if post.categories contains "lists" or post.categories contains "life" %}
-    <div class="col-sm-6 col-md-4 col-lg-3 {{ post.category }}">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 {{ post.category }}">
     	<div class="excerptHover">
     	<h2 class="homeTitle">{{ post.title }}</h2>
     	<h4 class="homeCategory">{{ post.category }}</h4>

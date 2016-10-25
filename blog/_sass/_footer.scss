@@ -1,3 +1,33 @@
 #blogFooter {
-	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	// padding: 1rem;
+	// margin: 2rem 0 0 0;
+	height: 10%;
+	border-bottom: solid 2rem $accent_one;
+}
+
+.footer-links {
+	display: flex;
+	flex-flow: flex-end;
+	flex-direction: row;
+	align-items: flex-start;
+	align-content: space-around;
+	margin-left: 3rem;
+	ul {
+		list-style-type: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		a{
+			font-size: 1.3rem;
+		}
+		.fa {
+			color: $primary_link;
+			display: inline-block;
+			width: 1.7rem;
+		}
+	}
 }
