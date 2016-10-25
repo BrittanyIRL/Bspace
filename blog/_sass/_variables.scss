@@ -1,5 +1,26 @@
+// mixins 
+@mixin linearGradient($top, $middle, $bottom){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(top,  $top 40%, $middle 85%, $bottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(85%,$middle), color-stop(100%,$bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  $top 40%,$middle 85%,$bottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  $top 40%,$middle 85%,$bottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  $top 40%,$middle 85%,$bottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  $top 40%,$middle 85%,$bottom 100%); /* W3C */
+}
 /*site variables */
 
+$primary_link: purple;
+$accent_one: red; // accent lines, bigger accent
+$tan: #EFD5C8;
+$lightpink: #D78AB1;
+$darkpink: #C15492;
+$tan_bg: rgba(239,213,200,0.5);
+$lightpink_bg: rgba(215, 138, 177, 0.5);
+$darkpink_bg: rgba(193, 84, 146, 0.5);
+
+
+/*Globals */
 *,
 *:before,
 *:after {
@@ -17,9 +38,9 @@ html, body {
 body {
   position: relative;
   margin: 0 0 -3rem;
-  // padding-bottom: 6rem;
   height: 90%;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  @include linearGradient($tan_bg, $lightpink_bg, $darkpink_bg);
 }
 
 #main-content {
@@ -37,5 +58,4 @@ body {
 // }
 
 
-$primary_link: purple;
-$accent_one: red; // accent lines, bigger accent
+
