@@ -1,9 +1,16 @@
 // home template pieces 
 .homeSquare {
-	min-width: 20rem;
-	height: 20rem;
+	max-width: 25vw;
+	min-width: 10vw;
+	padding: 0;
+	position: relative;
+	&:after {
+	  content: "";
+  	  display: block;
+  	  padding-bottom: 100%;
+	}
 	&:hover {
-		filter: grayscale(100%);
+		// filter: grayscale(100%);
 		z-index: 1;
 	}
 }
@@ -46,22 +53,48 @@
 	}
 
 	.excerptHover {
+	  position: absolute;
+	  width: 80%;
+	  height: 80%;
 		display: none;
 		z-index: 300;
-		background-color: white;
+		background-color: $lightpink;
+		border: .5rem solid $tan;
 		opacity: 0.8;
-		width: 90%;
-		height: 90%;
 		margin: 5%;
-		padding: 1rem 2rem;
+		padding: 1rem;
 		.homeTitle{
 			margin-bottom: 0;
+			font-size: 2.6rem;
+			color: $tan;
 		}
 		.homeCategory{
 			margin-top: 0;
 		}
-		.homeDate{}
-		.homeMore{}
+		.homeDetails span{
+			font-size: 1.75rem;
+			text-transform: capitalize;
+			color: $tan;
+			&:first-of-type {
+				&:after {
+				  padding-left: 1.5rem;
+				  content: "|";
+				}
+			}
+
+			&:last-of-type {
+				padding-left: 1.5rem;
+			}
+		}
+		.homeMore{
+			a{
+			  color: $tan;
+			  font-size: 1.5rem;
+			&:hover {
+				color: $darkpink;
+			}
+			}
+		}
 	}
 
 }

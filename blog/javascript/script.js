@@ -36,7 +36,7 @@ $(".footer-links li").hover(function(){
 	}
 }, 
 function(){
-	$(this).find(".fa").css("color", "#16FFBD");
+	$(this).find(".fa").css("color", "#C15492");
 });
 
 })

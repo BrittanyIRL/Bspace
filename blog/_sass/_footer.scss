@@ -1,11 +1,12 @@
 #blogFooter {
-	position: absolute;
+	// position: fixed;
+	// margin-top: 5rem;
+	z-index: 50;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	// padding: 1rem;
-	// margin: 2rem 0 0 0;
-	height: 10%;
+	background-color: $tan;
+	height: 15%;
 	border-bottom: solid 2rem $darkpink;
 }
 
@@ -16,6 +17,8 @@
 	align-items: flex-start;
 	align-content: space-around;
 	margin-left: 3rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
 	ul {
 		list-style-type: none;
 		width: 100%;
@@ -25,7 +28,7 @@
 			font-size: 1.3rem;
 		}
 		.fa {
-			color: $primary_link;
+			color: $darkpink;
 			display: inline-block;
 			width: 1.7rem;
 		}
