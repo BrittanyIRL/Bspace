@@ -52,44 +52,52 @@
 		// }
 	}
 
+	.hoverWhitespace{
+		padding-left: .6rem;
+	}
 	.excerptHover {
 	  position: absolute;
-	  width: 80%;
-	  height: 80%;
-		display: none;
-		z-index: 300;
-		background-color: $lightpink;
-		border: .5rem solid $tan;
-		opacity: 0.8;
-		margin: 5%;
-		padding: 1rem;
+	  width: 90%;
+	  height: 90%;
+	  display: none;
+	  z-index: 300;
+	  background-color: $lightpink;
+	  border: .5rem solid $tan;
+	  opacity: 0.8;
 		.homeTitle{
 			margin-bottom: 0;
-			font-size: 2.6rem;
+			@extend .hoverWhitespace;
+			font-size: 1.2rem;
 			color: $tan;
 		}
 		.homeCategory{
+			@extend .hoverWhitespace;
+			font-size: .7rem;
 			margin-top: 0;
 		}
 		.homeDetails span{
-			font-size: 1.75rem;
+			font-size: .6rem;
 			text-transform: capitalize;
 			color: $tan;
+			@extend .hoverWhitespace;
+
 			&:first-of-type {
 				&:after {
-				  padding-left: 1.5rem;
+				  padding-left: .5rem;
 				  content: "|";
 				}
 			}
 
 			&:last-of-type {
-				padding-left: 1.5rem;
+				// padding-left: 1.5rem;
 			}
 		}
 		.homeMore{
+			@extend .hoverWhitespace;
+
 			a{
 			  color: $tan;
-			  font-size: 1.5rem;
+			  font-size: .6rem;
 			&:hover {
 				color: $darkpink;
 			}

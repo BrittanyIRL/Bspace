@@ -1,20 +1,20 @@
 nav.navbar.navbar-default.navbar-fixed-top {
 	height: 2rem;
 	background-color: $tan;
-	border-bottom: solid .5rem $teal;
+	border-bottom: solid .2rem $teal;
 }
 
 .navbar-default .navbar-brand {
 	color: $darkpink;
 	padding-left: 2.5rem;
-	font-size: 3rem;
+	font-size: 1.3rem;
 	&:hover {
 		color: $lightpink;
 	}
 }
 .nav.navbar-nav.navbar-right a{
 	color: $teal;
-	font-size: 1.5rem;
+	font-size: .52rem;
 	&:hover {
 		color: $teal_bg;
 	}

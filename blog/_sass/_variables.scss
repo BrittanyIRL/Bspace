@@ -32,11 +32,12 @@ $yellow_bg: rgba(220,237,49, 0.5);
 }
 
 /*root em */
-* {
-	font-size: 10px;
-}
+
 html, body {
 	height: 100%;
+}
+html {
+  font-size: calc(1em + 1vw);
 }
 
 body {
@@ -62,6 +63,28 @@ a {
     text-decoration: none;
   }
 }
+
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.8rem;
+  color: $darkpink;
+}
+h3{
+  font-size: 1.6rem;
+}
+h4{
+  font-size: 1.4rem;
+}
+h5{
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: .8rem;
+}
+
 
 
 
