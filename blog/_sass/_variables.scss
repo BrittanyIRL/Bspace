@@ -22,6 +22,8 @@ $lightpink_bg: rgba(215, 138, 177, 0.2);
 $darkpink_bg: rgba(193, 84, 146, 0.5);
 $teal_bg: rgba(0,181, 172, 0.8);
 $yellow_bg: rgba(220,237,49, 0.5);
+$darkgray: #2f4f4f;
+$white: #fff;
 
 
 /*Globals */
@@ -51,8 +53,7 @@ body {
 #main-content {
 	display: block;
 	// height: 90%;
-	border-bottom: solid .5rem $teal;
-
+  margin-bottom: 3.3rem;
 }
 
 /* text basics */
@@ -86,6 +87,11 @@ p {
 }
 
 
+@media (max-width: 660px){
+  #main-content {
+    margin-bottom: 8rem;
+  }
 
+}
 
 

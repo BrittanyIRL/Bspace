@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What killed the Dinosaurs"
+shorttitle: "dinos"
 date:   2016-10-16 14:40:29 -0700
 category: code
 ---

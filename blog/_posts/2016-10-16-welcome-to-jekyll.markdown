@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Tacos and donuts"
+shorttitle: "tacos"
 date:   2016-10-16 14:40:29 -0700
 category: life
 ---

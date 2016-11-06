@@ -1,7 +1,5 @@
 // home template pieces 
 .homeSquare {
-	max-width: 25vw;
-	min-width: 10vw;
 	padding: 0;
 	position: relative;
 	&:after {
@@ -10,8 +8,7 @@
   	  padding-bottom: 100%;
 	}
 	&:hover {
-		// filter: grayscale(100%);
-		z-index: 1;
+	  z-index: 1;
 	}
 }
 
@@ -30,44 +27,32 @@
 	.life {
 		@extend .homeSquare;
 		@include categorySet(url('https://placekitten.com/405/403'));
-		// &:hover {
-		// 	background-color: white;
-		// 	opacity: 0.5;
-		// }
 	}
 	.music {
 		@extend .homeSquare;
 		@include categorySet(url('https://placekitten.com/401/402'));
-		// &:hover {
-		// 	background-color: white;
-		// 	opacity: 0.5;
-		// }
 	}
 	.lists {
 		@extend .homeSquare;
 		@include categorySet(url('https://placekitten.com/400/401'));
-		// &:hover {
-		// 	background-color: white;
-		// 	opacity: 0.5;
-		// }
 	}
 
 	.hoverWhitespace{
-		padding-left: .6rem;
+		padding-left: 15%;
 	}
 	.excerptHover {
 	  position: absolute;
-	  width: 90%;
-	  height: 90%;
+	  width: 100%;
+	  height: 100%;
 	  display: none;
 	  z-index: 300;
 	  background-color: $lightpink;
-	  border: .5rem solid $tan;
-	  opacity: 0.8;
+	  // border: .1rem solid $tan;
+	  opacity: 0.9;
 		.homeTitle{
 			margin-bottom: 0;
 			@extend .hoverWhitespace;
-			font-size: 1.2rem;
+			font-size: 1.5rem;
 			color: $tan;
 		}
 		.homeCategory{
@@ -89,7 +74,7 @@
 			}
 
 			&:last-of-type {
-				// padding-left: 1.5rem;
+				padding-left: .5rem;
 			}
 		}
 		.homeMore{
@@ -104,8 +89,18 @@
 			}
 		}
 	}
-
 }
 .show {
 	display: block;
+}
+
+.homeAbout {
+	display: block;
+	width: 60vw;
+	margin: 2rem auto 1rem 15vw;
+	border-bottom: .1rem solid $tan_bg;
+	p {
+		font-size: .8rem;
+		text-align: justify;
+	}
 }
