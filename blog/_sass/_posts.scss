@@ -1,4 +1,5 @@
 .postContainer {
+	margin-bottom: 2rem;
 	article {
 		width: 60vw;
 		margin: .4rem auto 1rem 10vw;
@@ -28,6 +29,20 @@
 				// padding-left: 1.5rem;
 			}
 		}
+	}
+	img.aboutImage {
+		width: 60vw;
+		height: 30vh;
+		object-fit: cover;
+		margin-bottom: 1rem;
+	}
+}
 
+#aboutContainer {
+	i.fa-twitter {
+		color: $darkpink;
+		&:hover {
+			color: $darkpink_bg;
+		}
 	}
 }

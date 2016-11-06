@@ -22,19 +22,19 @@
 	//set category background images 
 	.code {
 		@extend .homeSquare;
-		@include categorySet(url('https://placekitten.com/400/400'));
+		@include categorySet(url('/images/code2.jpg'));
 	}
 	.life {
 		@extend .homeSquare;
-		@include categorySet(url('https://placekitten.com/405/403'));
+		@include categorySet(url('/images/irl1.jpg'));
 	}
 	.music {
 		@extend .homeSquare;
-		@include categorySet(url('https://placekitten.com/401/402'));
+		@include categorySet(url('/images/irl2.jpg'));
 	}
 	.lists {
 		@extend .homeSquare;
-		@include categorySet(url('https://placekitten.com/400/401'));
+		@include categorySet(url('/images/lists1.jpg'));
 	}
 
 	.hoverWhitespace{
