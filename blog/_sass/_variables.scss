@@ -72,6 +72,9 @@ h2{
   font-size: 1.8rem;
   color: $darkpink;
 }
+a > h2:hover {
+  color: $lightpink;
+}
 h3{
   font-size: 1.6rem;
 }

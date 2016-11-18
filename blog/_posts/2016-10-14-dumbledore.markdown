@@ -2,7 +2,7 @@
 layout: post
 title:  "Post 1"
 shorttitle: "xoxo"
-date:   2016-10-16 14:40:29 -0700
+date:   2016-10-14 14:40:29 -0700
 category: lists
 
 ---
