@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="postContainer" id="{{ post.category }}">
+  {% for post in site.categories.code %}
+  {% if post.url %}
+  <article>
+    <div>
+    	<a title="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}" ><h2 class="postTitle">{{ post.title }}</h2></a>
+    	<div class="postDetails">
+        <p>{{post.shorttitle}}//</p>
+        <span>{{ post.category }}</span>
+        <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+      </div>
+      <p class="postExcerpt">{{ post.excerpt }}</p>
+    	<p class="postMore"><a title="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}" >Read More</a></p>
+    </div>
+  </article>
+    {% endif %}
+  {% endfor %}
+  </div>

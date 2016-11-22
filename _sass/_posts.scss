@@ -1,0 +1,48 @@
+.postContainer {
+	margin-bottom: 2rem;
+	article {
+		width: 60vw;
+		margin: .4rem auto 1rem 10vw;
+		border-bottom: .1rem solid $tan_bg;
+		border-top: .1rem solid $darkpink_bg;
+		&:first-of-type{
+			border-top: none;
+			margin-top: 0;
+		}
+		p {
+			font-size: .8rem;
+		}
+		.postTitle {
+		}
+		.postDetails span{
+			font-size: .6rem;
+			text-transform: capitalize;
+			color: $tan;
+			&:first-of-type {
+				&:after {
+				  padding-left: .5rem;
+				  content: "|";
+				}
+			}
+
+			&:last-of-type {
+				// padding-left: 1.5rem;
+			}
+		}
+	}
+	img.aboutImage {
+		width: 60vw;
+		height: 30vh;
+		object-fit: cover;
+		margin-bottom: 1rem;
+	}
+}
+
+#aboutContainer {
+	i.fa-twitter {
+		color: $darkpink;
+		&:hover {
+			color: $darkpink_bg;
+		}
+	}
+}
