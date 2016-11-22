@@ -31,8 +31,9 @@ codepen_url: http://codepen.io/brittanyIRL/
 github_url: https://github.com/BrittanyIRL
 
 # Build settings
-permalink: pretty
-relative_permalinks: false
+sass:
+  sass_dir: _sass
+  style: compressed
 markdown: kramdown
 theme: minima
 gems:
