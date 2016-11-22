@@ -22,7 +22,7 @@
 	//set category background images 
 	.code {
 		@extend .homeSquare;
-		@include categorySet(url('{{ site.github.url }}/images/code2.jpg'));
+		@include categorySet(url('{{site.baseurl}}/images/code2.jpg'));
 	}
 	.life {
 		@extend .homeSquare;
