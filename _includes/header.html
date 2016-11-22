@@ -1,18 +1,22 @@
-<ul id="main-menu" class="side-nav">
+<ul id="main-menu" class="side-nav fixed">
   <div class="navigation">
-    <h1><a class="navbar-brand siteTitle" href="{{ site.github.url }}/">{{ site.title }}</a></h1>
+    <li><h1><a class="siteTitle" href="{{ site.github.url }}/">{{ site.title }}</a></h1></li>
 
     <li><a href="{{ site.github.url }}/coding">coding</a></li>
     <li><a href="{{ site.github.url }}/irl">#realLife</a></li>
     <li><a href="{{ site.github.url }}/photography">photography</a></li>
     <li><a href="{{ site.github.url }}/about">about me</a></li> 
-    <li><div class="divider"></div></li>
     <li><a href="http://brittanyfeenstra.com" target="_blank" description="Go to my portfolio">portfolio</a></li>
     </div>
-    <div class="footer">
+    <li><div class="divider"></div></li>
+
+    <div class="row">
+    <div class="footer-links col s12 m6">
     <li class="github"><a href="{{site.github_url}}"><i class="fa fa-github-alt"></i>Github</a></li>
     <li class="codepen"><a href="{{site.codepen_url}}"><i class="fa fa-codepen"></i>Codepen</a></li>
     <li class="linkedin"><a href="{{site.linkedin_url}}"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+    </div>
+    <div class="footer-links col s12 m6">
     <li class="twitter"><a href="{{site.twitter_url}}"><i class="fa fa-twitter"></i>Twitter</a></li>
     <li class="instagram"><a href="{{site.instagram_url}}/"><i class="fa fa-instagram"></i>Instagram</a></li>
     <li class="flickr"><a href="{{ site.flickr_url }}"><i class="fa fa-flickr"></i>Flickr</a></li> 
@@ -23,31 +27,3 @@
 
 
 
-
-
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-header" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand siteTitle" href="{{ site.github.url }}/">{{ site.title }}</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="collapsed-header">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.github.url }}/coding">coding</a></li>
-        <li><a href="{{ site.github.url }}/irl">#realLife</a></li>
-        <li><a href="{{ site.github.url }}/photography">photography</a></li>
-        <li><a href="http://brittanyfeenstra.com" target="_blank" description="Go to my portfolio">portfolio</a></li>
-        <li><a href="{{ site.github.url }}/about">about me</a></li> 
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>

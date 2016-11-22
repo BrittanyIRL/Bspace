@@ -26,7 +26,7 @@
     <!-- Latest compiled and minified CSS -->
     <!-- 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
@@ -36,49 +36,39 @@
   </head>
 
   <body>
-   <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-header" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand siteTitle" href="/">BLOG TITLE</a>
-    </div>
+   <ul id="main-menu" class="side-nav fixed">
+  <div class="navigation">
+    <li><h1><a class="siteTitle" href="/">BLOG TITLE</a></h1></li>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="collapsed-header">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/coding">coding</a></li>
-        <li><a href="/irl">#realLife</a></li>
-        <li><a href="/photography">photography</a></li>
-        <li><a href="http://brittanyfeenstra.com" target="_blank" description="Go to my portfolio">portfolio</a></li>
-        <li><a href="/about">about me</a></li> 
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <li><a href="/coding">coding</a></li>
+    <li><a href="/irl">#realLife</a></li>
+    <li><a href="/photography">photography</a></li>
+    <li><a href="/about">about me</a></li> 
+    <li><a href="http://brittanyfeenstra.com" target="_blank" description="Go to my portfolio">portfolio</a></li>
+    </div>
+    <li><div class="divider"></div></li>
+
+    <div class="row">
+    <div class="footer-links col s12 m6">
+    <li class="github"><a href="https://github.com/BrittanyIRL"><i class="fa fa-github-alt"></i>Github</a></li>
+    <li class="codepen"><a href="http://codepen.io/brittanyIRL/"><i class="fa fa-codepen"></i>Codepen</a></li>
+    <li class="linkedin"><a href="https://www.linkedin.com/in/brittanybrassell"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+    </div>
+    <div class="footer-links col s12 m6">
+    <li class="twitter"><a href="https://twitter.com/BrittanyIRL"><i class="fa fa-twitter"></i>Twitter</a></li>
+    <li class="instagram"><a href="https://www.instagram.com/brittanyfeenstra/"><i class="fa fa-instagram"></i>Instagram</a></li>
+    <li class="flickr"><a href="https://www.flickr.com/photos/42535594@N07"><i class="fa fa-flickr"></i>Flickr</a></li> 
+    </div>
+  </ul>
+  <a href="#" data-activates="main-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
+
+
+
 
     <div class="container" id="main-content">
-      <style>
-/*because of liquid templating, these images need to be here not in the scss file with their buddies*/
-.code {
-    background-image: url('/images/code2.jpg');
-  }
-  .life {
-    background-image: url('/images/irl1.jpg');
-  }
-  .music {
-    background-image: url('/images/irl2.jpg');
-  }
-  .lists {
-    background-image: url('/images/lists1.jpg');
-  }
-</style>
-  <div class="postContainer">
+        <div class="postContainer">
   
     <article>
     <div>
@@ -95,73 +85,71 @@
     </div>
     </article>
   
+    <article>
+    <div>
+      <a title="What killed the Dinosaurs" href="/Bspace/code/2016/10/17/sampleblog.html" ><h2 class="postTitle">What killed the Dinosaurs</h2></a>
+      <div class="postDetails">
+        <p>dinos//</p>
+        <span>code</span>
+        <span>October 17, 2016</span>
+      </div>
+      <p class="postExcerpt"><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+</p>
+      <p class="postMore"><a title="What killed the Dinosaurs" href="/Bspace/code/2016/10/17/sampleblog.html" >Read More</a></p>
+    </div>
+    </article>
+  
+    <article>
+    <div>
+      <a title="Tacos and donuts" href="/Bspace/life/2016/10/16/welcome-to-jekyll.html" ><h2 class="postTitle">Tacos and donuts</h2></a>
+      <div class="postDetails">
+        <p>tacos//</p>
+        <span>life</span>
+        <span>October 16, 2016</span>
+      </div>
+      <p class="postExcerpt"><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+</p>
+      <p class="postMore"><a title="Tacos and donuts" href="/Bspace/life/2016/10/16/welcome-to-jekyll.html" >Read More</a></p>
+    </div>
+    </article>
+  
+    <article>
+    <div>
+      <a title="Star wars is cool" href="/Bspace/music/2016/10/15/harry.html" ><h2 class="postTitle">Star wars is cool</h2></a>
+      <div class="postDetails">
+        <p>star wars//</p>
+        <span>music</span>
+        <span>October 15, 2016</span>
+      </div>
+      <p class="postExcerpt"><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+</p>
+      <p class="postMore"><a title="Star wars is cool" href="/Bspace/music/2016/10/15/harry.html" >Read More</a></p>
+    </div>
+    </article>
+  
+    <article>
+    <div>
+      <a title="Post 1" href="/Bspace/lists/2016/10/14/dumbledore.html" ><h2 class="postTitle">Post 1</h2></a>
+      <div class="postDetails">
+        <p>xoxo//</p>
+        <span>lists</span>
+        <span>October 14, 2016</span>
+      </div>
+      <p class="postExcerpt"><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+</p>
+      <p class="postMore"><a title="Post 1" href="/Bspace/lists/2016/10/14/dumbledore.html" >Read More</a></p>
+    </div>
+    </article>
+  
   </div>
-<div class="row" id="homeContainer">
-  
-    <div class="col s4 m3 l3 code">
-    	<div class="excerptHover">
-    	<h2 class="homeTitle">tacos 2</h2>
-    	<h4 class="homeDetails"><span>code</span><span>10/18/2016</span></h4>
-    	<p class="homeMore"><a title="fake blog" href="/Bspace/code/2016/10/18/draco.html" >Read More</a></p>
-    	</div>
-    </div>
-
-  
-    <div class="col s4 m3 l3 code">
-    	<div class="excerptHover">
-    	<h2 class="homeTitle">dinos</h2>
-    	<h4 class="homeDetails"><span>code</span><span>10/17/2016</span></h4>
-    	<p class="homeMore"><a title="What killed the Dinosaurs" href="/Bspace/code/2016/10/17/sampleblog.html" >Read More</a></p>
-    	</div>
-    </div>
-
-  
-    <div class="col s4 m3 l3 life">
-    	<div class="excerptHover">
-    	<h2 class="homeTitle">tacos</h2>
-    	<h4 class="homeDetails"><span>life</span><span>10/16/2016</span></h4>
-    	<p class="homeMore"><a title="Tacos and donuts" href="/Bspace/life/2016/10/16/welcome-to-jekyll.html" >Read More</a></p>
-    	</div>
-    </div>
-
-  
-    <div class="col s4 m3 l3 music">
-    	<div class="excerptHover">
-    	<h2 class="homeTitle">star wars</h2>
-    	<h4 class="homeDetails"><span>music</span><span>10/15/2016</span></h4>
-    	<p class="homeMore"><a title="Star wars is cool" href="/Bspace/music/2016/10/15/harry.html" >Read More</a></p>
-    	</div>
-    </div>
-
-  
-  </div>
 
 
     </div>
-
-    <div id="blogFooter">
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-md-5 footer-links">
-		<ul class="pull-left">
-	        <li class="github"><a href="https://github.com/BrittanyIRL"><i class="fa fa-github-alt"></i>Github</a></li>
-	        <li class="codepen"><a href="http://codepen.io/brittanyIRL/"><i class="fa fa-codepen"></i>Codepen</a></li>
-	        <li class="linkedin"><a href="https://www.linkedin.com/in/brittanybrassell"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
-	    </ul>
-		<ul>
-			<li class="twitter"><a href="https://twitter.com/BrittanyIRL"><i class="fa fa-twitter"></i>Twitter</a></li>
-	        <li class="instagram"><a href="https://www.instagram.com/brittanyfeenstra/"><i class="fa fa-instagram"></i>Instagram</a></li>
-	        <li class="flickr"><a href="https://www.flickr.com/photos/42535594@N07"><i class="fa fa-flickr"></i>Flickr</a></li> 
-		</ul>
-		</div>
-		<div class="hidden-xs col-sm-4 col-md-5">
-		 <quote>"Look closely at the present you are constructing: it should look like the future you are dreaming." - Alice Walker</quote>
-		</div>
-		
-	</div>
-</div>
-    ---
----
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>

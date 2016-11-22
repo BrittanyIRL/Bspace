@@ -2,16 +2,21 @@
 	margin-bottom: 2rem;
 	article {
 		width: 60vw;
-		margin: .4rem auto 1rem 10vw;
-		border-bottom: .1rem solid $tan_bg;
+		margin: .4rem -1rem 1rem 13vw;
+		padding: 0 1rem;
+		border-bottom: .1rem solid $yellow;
 		border-top: .1rem solid $darkpink_bg;
 		&:first-of-type{
 			border-top: none;
 			margin-top: 0;
 		}
+		&:last-of-type{
+			border-bottom: none;
+		}
 		p {
 			font-size: .8rem;
 		}
+
 		.postTitle {
 		}
 		.postDetails span{
@@ -45,4 +50,18 @@
 			color: $darkpink_bg;
 		}
 	}
+	article {
+		border-bottom: none;
+	}
+}
+
+
+@media (max-width: 992px){
+.postContainer {
+	article {
+		width: 60vw;
+		margin: 0 auto;
+		padding: .5rem;
+		}
+	}	
 }

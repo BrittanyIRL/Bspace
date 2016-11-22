@@ -44,7 +44,7 @@ html {
 
 body {
   position: relative;
-  margin: 0 0 -3rem;
+  margin: 0;
   height: 100vh;
   font-family: "Helvetica Neue", Arial, sans-serif;
   // @include linearGradient($tan_bg, $yellow_bg, $darkpink_bg);
@@ -54,6 +54,7 @@ body {
 	display: block;
 	// height: 90%;
   margin-bottom: 3.3rem;
+  margin-top: -2rem;
 }
 
 /* text basics */
