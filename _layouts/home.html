@@ -2,6 +2,7 @@
 layout: default
 ---
 <style>
+/*because of liquid templating, these images need to be here not in the scss file with their buddies*/
 .code {
     background-image: url('{{ site.github.url }}/images/code2.jpg');
   }
@@ -33,7 +34,7 @@ layout: default
   </div>
 <div class="row" id="homeContainer">
   {% for post in site.posts limit:4 %}
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 {{ post.category }}">
+    <div class="col s4 m3 l3 {{ post.category }}">
     	<div class="excerptHover">
     	<h2 class="homeTitle">{{ post.shorttitle }}</h2>
     	<h4 class="homeDetails"><span>{{ post.category }}</span><span>{{ post.date | date: "%m/%d/%Y" }}</span></h4>
