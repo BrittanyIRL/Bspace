@@ -1,3 +1,5 @@
+//bootstrap
+body { padding-top: 2rem; } /*for fixed top */
 // mixins 
 @mixin linearGradient($top, $middle, $bottom){
     background: $top; /* Old browsers */
