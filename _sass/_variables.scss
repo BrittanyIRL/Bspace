@@ -57,7 +57,7 @@ body {
   position: relative;
   margin: 0;
   height: 100vh;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 #main-content {
@@ -77,20 +77,19 @@ body {
 
 h1{
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: 'PT Sans', sans-serif;
 }
 h2{
   font-size: 1.8rem;
   color: $darkpink;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 a > h2:hover {
   color: $lightpink;
 }
 h3{
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 h4{
   font-size: 1.4rem;
