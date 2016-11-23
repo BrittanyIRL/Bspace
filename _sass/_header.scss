@@ -1,16 +1,13 @@
 .navigation {
 	height: 60vh;
 }
-.side-nav {
-	a:hover{
-		color: $darkgray;
-	}
-}
 a.siteTitle {
 	color: $darkpink;
 	font-size: 1.3rem;
 	border-bottom: .2rem solid $yellow;
 	&:hover {
 		color: $lightpink;
+		text-shadow: none;
+		text-decoration: none;
 	}
 }
