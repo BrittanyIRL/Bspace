@@ -102,6 +102,13 @@ p {
   font-size: .8rem;
 }
 
+i.material-icons {
+  font-size: 1.5rem;
+  color: $teal;
+  &:hover {
+    color: $teal_bg;
+  }
+}
 
 @media (max-width: 660px){
   #main-content {
