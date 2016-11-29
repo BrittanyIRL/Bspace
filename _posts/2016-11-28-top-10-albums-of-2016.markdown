@@ -19,9 +19,8 @@ category: lists
 10. Trentemøller - Fixion 
 
 ### Honorable Mentions:
-<ul>
-<li> Factory Floor - 25 25</li>
-<li> Hinds - Leave Me Alone</li>
-<li> Essaie Pas - Demain est une autre nuit</li>
-<li> Yung Thug - (for the year in general)</li>
-</ul>
+
+- Factory Floor - 25 25
+- Hinds - Leave Me Alone
+- Essaie Pas - Demain est une autre nuit
+- Yung Thug - (for the year in general)
