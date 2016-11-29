@@ -9,14 +9,14 @@ category: lists
 Today is my 26th birthday. There's alot that I'm really proud of about this year, some good milestones and things that I'll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I'd been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren't as new it's time to think about what's up next (though we all know plans are generally made to be broken).
 
 1. Be intentional
-... With my husband, my friends, my family, my health
+..* With my husband, my friends, my family, my health
 2. Release an app in the itunes store
-... I have a really cool idea I'm tinkering with
-3. Learn to box (I want to be able to fight, not just run away)
+..* I have a really cool idea I'm tinkering with
+3. Learn to box _(I want to be able to fight, not just run away)_
 4. Get a dog and a hairless cat, raise them as a pack
 5. Go somewhere new... often
 6. Pick up running outdoors again 
-7. Take time to take care of myself (it just helps ya feel better, u know?)
+7. Take time to take care of myself _(it just helps ya feel better, u know?)_
 8. Finish books, not just start a billion 
 9. Learn something new with my hands 
 10. Start writing educational front end tutorials
