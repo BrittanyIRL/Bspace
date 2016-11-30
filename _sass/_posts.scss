@@ -16,6 +16,9 @@
 		p {
 			font-size: .8rem;
 		}
+		a {
+			@extend .link
+		}
 
 		.postTitle {
 			margin-bottom: 0;
@@ -41,7 +44,10 @@
 				}
 			}
 		}
-		li {
+		ul {
+			font-size: .8rem;
+		}
+		ul>li {
 			list-style-type: square;
 			list-style-position: inside;
 		}
