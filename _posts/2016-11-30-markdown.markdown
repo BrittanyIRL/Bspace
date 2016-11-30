@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "B's Personal Cheat Sheet To Markdown Language"
+shorttitle: "when you just don't want to search the same thing another time"
+date:   2016-11-30 14:40:29 -0700
+category: code
+---
+If you look at my github readmes you will maybe notice (depending on how you see things in life) my stubbornness in not using markdown or just using the same format over and over again. While this works fine for my github purposes, Jekyll is forcing me out of my markdown shell and hopefully into a better person. All these posts are in markdown! Since Jekyll is the programmer's CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
+I've learned alot from Adam Pritchard's [comprehensive markdownguide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), but want to paraphrase and edit to my own purposes here. 
+
+
+Code Blocks:
+
+`<p> code block </p> ` 
+
+Numbered lists:
+
+1. item one
+2. item two
+3. item three 
+
+Unordered lists:
+
+- item one
+- item two
+- item three
+
