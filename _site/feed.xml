@@ -1,20 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-22T20:51:41-08:00</updated><id>http://localhost:4000//</id><title type="html">B’s Space</title><subtitle>This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.</subtitle><entry><title type="html">fake blog</title><link href="http://localhost:4000/code/2016/10/18/draco.html" rel="alternate" type="text/html" title="fake blog" /><published>2016-10-18T14:40:29-07:00</published><updated>2016-10-18T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/10/18/draco</id><content type="html" xml:base="http://localhost:4000/code/2016/10/18/draco.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-29T21:40:03-08:00</updated><id>http://localhost:4000//</id><title type="html">B’s Space</title><subtitle>This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.</subtitle><entry><title type="html">Top 10 albums of 2016</title><link href="http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016.html" rel="alternate" type="text/html" title="Top 10 albums of 2016" /><published>2016-11-28T22:54:29-08:00</published><updated>2016-11-28T22:54:29-08:00</updated><id>http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016</id><content type="html" xml:base="http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016.html">&lt;ol&gt;
+  &lt;li&gt;Savages - Adore Life&lt;/li&gt;
+  &lt;li&gt;White Lies - Friends&lt;/li&gt;
+  &lt;li&gt;Nada Surf - You Know Who You Are&lt;/li&gt;
+  &lt;li&gt;Gucci Mane - Everybody Looking&lt;/li&gt;
+  &lt;li&gt;The Lonely Island - Popstar: Never Stop Never Stopping&lt;/li&gt;
+  &lt;li&gt;Head Wound City - A New Wave of Violence&lt;/li&gt;
+  &lt;li&gt;Nice as F*ck - Nice as Fuck&lt;/li&gt;
+  &lt;li&gt;Slaves - Take Control&lt;/li&gt;
+  &lt;li&gt;Yeasayer - Amen &amp;amp; Goodbye&lt;/li&gt;
+  &lt;li&gt;Trentemøller - Fixion&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;honorable-mentions&quot;&gt;Honorable Mentions:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Factory Floor - 25 25&lt;/li&gt;
+  &lt;li&gt;Hinds - Leave Me Alone&lt;/li&gt;
+  &lt;li&gt;Essaie Pas - Demain est une autre nuit&lt;/li&gt;
+  &lt;li&gt;Yung Thug - (for the year in general)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="lists" /><summary type="html">Savages - Adore Life
+  White Lies - Friends
+  Nada Surf - You Know Who You Are
+  Gucci Mane - Everybody Looking
+  The Lonely Island - Popstar: Never Stop Never Stopping
+  Head Wound City - A New Wave of Violence
+  Nice as F*ck - Nice as Fuck
+  Slaves - Take Control
+  Yeasayer - Amen &amp;amp; Goodbye
+  Trentemøller - Fixion</summary></entry><entry><title type="html">Turning 26</title><link href="http://localhost:4000/lists/2016/11/02/turning-26.html" rel="alternate" type="text/html" title="Turning 26" /><published>2016-11-02T14:40:29-07:00</published><updated>2016-11-02T14:40:29-07:00</updated><id>http://localhost:4000/lists/2016/11/02/turning-26</id><content type="html" xml:base="http://localhost:4000/lists/2016/11/02/turning-26.html">&lt;p&gt;Today is my 26th birthday. There’s alot that I’m really proud of about this year, some good milestones and things that I’ll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I’d been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren’t as new it’s time to think about what’s up next (though we all know plans are generally made to be broken).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Be intentional: With my husband, my friends, my family, my health&lt;/li&gt;
+  &lt;li&gt;Release an app in the itunes store: I have a really cool idea I’m tinkering with&lt;/li&gt;
+  &lt;li&gt;Learn to box: I want to be able to fight, not just run away&lt;/li&gt;
+  &lt;li&gt;Get a dog and a hairless cat, raise them as a pack&lt;/li&gt;
+  &lt;li&gt;Go somewhere new… often&lt;/li&gt;
+  &lt;li&gt;Pick up running outdoors again&lt;/li&gt;
+  &lt;li&gt;Take time to take care of myself: it just helps ya feel better, u know?&lt;/li&gt;
+  &lt;li&gt;Finish books, not just start a billion&lt;/li&gt;
+  &lt;li&gt;Learn something new with my hands&lt;/li&gt;
+  &lt;li&gt;Start writing educational front end tutorials&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;HBD to me &amp;lt;3&lt;/p&gt;</content><category term="lists" /><summary type="html">Today is my 26th birthday. There’s alot that I’m really proud of about this year, some good milestones and things that I’ll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I’d been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren’t as new it’s time to think about what’s up next (though we all know plans are generally made to be broken).</summary></entry><entry><title type="html">What killed the Dinosaurs</title><link href="http://localhost:4000/code/2016/10/17/sampleblog.html" rel="alternate" type="text/html" title="What killed the Dinosaurs" /><published>2016-10-17T14:40:29-07:00</published><updated>2016-10-17T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/10/17/sampleblog</id><content type="html" xml:base="http://localhost:4000/code/2016/10/17/sampleblog.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><category term="code" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">What killed the Dinosaurs</title><link href="http://localhost:4000/code/2016/10/17/sampleblog.html" rel="alternate" type="text/html" title="What killed the Dinosaurs" /><published>2016-10-17T14:40:29-07:00</published><updated>2016-10-17T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/10/17/sampleblog</id><content type="html" xml:base="http://localhost:4000/code/2016/10/17/sampleblog.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;list&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
@@ -46,16 +86,4 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><category term="music" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Post 1</title><link href="http://localhost:4000/lists/2016/10/14/dumbledore.html" rel="alternate" type="text/html" title="Post 1" /><published>2016-10-14T14:40:29-07:00</published><updated>2016-10-14T14:40:29-07:00</updated><id>http://localhost:4000/lists/2016/10/14/dumbledore</id><content type="html" xml:base="http://localhost:4000/lists/2016/10/14/dumbledore.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><category term="lists" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><category term="music" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

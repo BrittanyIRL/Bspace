@@ -18,21 +18,32 @@
 		}
 
 		.postTitle {
+			margin-bottom: 0;
 		}
-		.postDetails span{
+		.postDetails {
+			p {
+				margin: 0 0 -.4rem 0;
+			}
+
+			span{
 			font-size: .6rem;
 			text-transform: capitalize;
 			color: $tan;
-			&:first-of-type {
-				&:after {
-				  padding-left: .5rem;
-				  content: "|";
+				&:first-of-type {
+					&:after {
+					  padding-left: .5rem;
+					  content: "|";
+					}
+				}
+
+				&:last-of-type {
+					// padding-left: 1.5rem;
 				}
 			}
-
-			&:last-of-type {
-				// padding-left: 1.5rem;
-			}
+		}
+		li {
+			list-style-type: square;
+			list-style-position: inside;
 		}
 	}
 	img.aboutImage {
