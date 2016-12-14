@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BrittanyIRL 
+subtitle: the life & code of brittany feenstra
 email: brittany.feenstra@gmail.com
 description: # this means to ignore newlines until "baseurl:"
   The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.
