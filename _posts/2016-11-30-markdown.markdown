@@ -5,23 +5,134 @@ shorttitle: "when you just don't want to search the same thing another time"
 date:   2016-11-30 14:40:29 -0700
 category: code
 ---
-If you look at my github readmes you will maybe notice (depending on how you see things in life) my stubbornness in not using markdown or just using the same format over and over again. While this works fine for my github purposes, Jekyll is forcing me out of my markdown shell and hopefully into a better person. All these posts are in markdown! Since Jekyll is the programmer's CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
-I've learned alot from Adam Pritchard's [comprehensive markdownguide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), but want to paraphrase and edit to my own purposes here. 
+
+One of the things that drew my into learning how Jekyll's CMS works is that it uses markdown for all the posts. While this isn't practical for a client to do when you hand over the reigns, it's a really fun excercise for myself. And will help spruce up my future github readmes. 
+
+All these posts are in markdown! Since Jekyll is the programmer's CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
+
+This is all google-able, but for my own santity and practice I want all the markdown used for my posts to be collected and tracked in one spot. So, as I evolve the site, I'll update this post to document how I'm writing posts.
+
+## Headings
+
+`# H1`
+
+# H1
+
+`## H2`
+
+## H2
+
+`### H3`
+
+### H3
+
+`#### H4`
+
+#### H4
+
+`##### H5`
+
+##### H5
+
+`###### H6` 
+
+###### H6
 
 
-Code Blocks:
+## Emphasis
 
-`<p> code block </p> ` 
+`*italics* or _italics_`
 
-Numbered lists:
+*asterisks* or _underscore_
 
-1. item one
-2. item two
-3. item three 
+`**bold** or __bold__`
 
-Unordered lists:
+**asterisks** or __underscore__
 
-- item one
-- item two
-- item three
+`~~strike through~~`
+
+~~strike through~~
+
+## Lists
+
+`1. ordered list item 
+ 1. numbers do not matter, they update on their own
+   * Sub item, unordered
+ 1. another list item
+   1. sub item, ordered
+   1. another sub item, ordered
+
+   intended paragraph under a list item
+ 1. another list item
+
+* unordered list
+- unordered list
++ unordered list 
+ `
+
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.
+
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+   To have a line break without a paragraph, you will need to use two trailing spaces.
+   Note that this line is separate, but within the same paragraph.
+   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
+
+## Links
+`[inline-style link with title](https://www.google.com "Google's Homepage")`
+
+[inline-style link with title](https://www.google.com "Google's Homepage")
+
+`[relative links](../blob/master/LICENSE)`
+
+[relative links](../blob/master/LICENSE)
+
+
+## Images 
+
+Inline-style: 
+
+```![alt text](https://media.giphy.com/media/UkhHIZ37IDRGo/giphy.gif "Andy from Parks and Rec")```
+
+![alt text](https://media.giphy.com/media/UkhHIZ37IDRGo/giphy.gif "Andy from Parks and Rec")
+
+Reference-style: 
+
+```![alt text][creep]
+[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif "Do the Creep"```
+
+![alt text][creep]
+
+[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif "Do the Creep"
+
+## Code Blocks:
+
+` `<p> code block </p>` ` 
+`<p> code block </p> `
+
+## Blockquotes
+> "Haters are just people who haven't quite figured out partying." - Andrew WK
+
+## Horizontal Rules
+
+Three or more 
+
+```---```
+
+---
+
+
+
+thank you to [adamp's markdown cheats](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers "github")
+
 

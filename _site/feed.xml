@@ -1,26 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-13T18:55:32-08:00</updated><id>http://localhost:4000//</id><title type="html">B’s Space</title><subtitle>This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.</subtitle><entry><title type="html">B’s Personal Cheat Sheet To Markdown Language</title><link href="http://localhost:4000/code/2016/11/30/markdown.html" rel="alternate" type="text/html" title="B's Personal Cheat Sheet To Markdown Language" /><published>2016-11-30T13:40:29-08:00</published><updated>2016-11-30T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/30/markdown</id><content type="html" xml:base="http://localhost:4000/code/2016/11/30/markdown.html">&lt;p&gt;If you look at my github readmes you will maybe notice (depending on how you see things in life) my stubbornness in not using markdown or just using the same format over and over again. While this works fine for my github purposes, Jekyll is forcing me out of my markdown shell and hopefully into a better person. All these posts are in markdown! Since Jekyll is the programmer’s CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
-I’ve learned alot from Adam Pritchard’s &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;comprehensive markdownguide&lt;/a&gt;, but want to paraphrase and edit to my own purposes here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-13T19:35:55-08:00</updated><id>http://localhost:4000//</id><title type="html">B’s Space</title><subtitle>This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.</subtitle><entry><title type="html">B’s Personal Cheat Sheet To Markdown Language</title><link href="http://localhost:4000/code/2016/11/30/markdown.html" rel="alternate" type="text/html" title="B's Personal Cheat Sheet To Markdown Language" /><published>2016-11-30T13:40:29-08:00</published><updated>2016-11-30T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/30/markdown</id><content type="html" xml:base="http://localhost:4000/code/2016/11/30/markdown.html">&lt;p&gt;One of the things that drew my into learning how Jekyll’s CMS works is that it uses markdown for all the posts. While this isn’t practical for a client to do when you hand over the reigns, it’s a really fun excercise for myself. And will help spruce up my future github readmes.&lt;/p&gt;
 
-&lt;p&gt;Code Blocks:&lt;/p&gt;
+&lt;p&gt;All these posts are in markdown! Since Jekyll is the programmer’s CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt; code block &amp;lt;/p&amp;gt; &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This is all google-able, but for my own santity and practice I want all the markdown used for my posts to be collected and tracked in one spot. So, as I evolve the site, I’ll update this post to document how I’m writing posts.&lt;/p&gt;
 
-&lt;p&gt;Numbered lists:&lt;/p&gt;
+&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;item one&lt;/li&gt;
-  &lt;li&gt;item two&lt;/li&gt;
-  &lt;li&gt;item three&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;# H1&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Unordered lists:&lt;/p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;## H2&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;h2&quot;&gt;H2&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;### H3&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;h3&quot;&gt;H3&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#### H4&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;h4&quot;&gt;H4&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;##### H5&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;h5&quot;&gt;H5&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;###### H6&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;h6&quot;&gt;H6&lt;/h6&gt;
+
+&lt;h2 id=&quot;emphasis&quot;&gt;Emphasis&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*italics* or _italics_&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscore&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;**bold** or __bold__&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscore&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;~~strike through~~&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+
+&lt;p&gt;`1. ordered list item 
+ 1. numbers do not matter, they update on their own
+   * Sub item, unordered
+ 1. another list item
+   1. sub item, ordered
+   1. another sub item, ordered&lt;/p&gt;
+
+&lt;p&gt;intended paragraph under a list item
+ 1. another list item&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;item one&lt;/li&gt;
-  &lt;li&gt;item two&lt;/li&gt;
-  &lt;li&gt;item three&lt;/li&gt;
-&lt;/ul&gt;</content><category term="code" /><summary type="html">If you look at my github readmes you will maybe notice (depending on how you see things in life) my stubbornness in not using markdown or just using the same format over and over again. While this works fine for my github purposes, Jekyll is forcing me out of my markdown shell and hopefully into a better person. All these posts are in markdown! Since Jekyll is the programmer’s CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
-I’ve learned alot from Adam Pritchard’s comprehensive markdownguide, but want to paraphrase and edit to my own purposes here.</summary></entry><entry><title type="html">Jekyll + Github Project Page</title><link href="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html" rel="alternate" type="text/html" title="Jekyll + Github Project Page" /><published>2016-11-29T13:40:29-08:00</published><updated>2016-11-29T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page</id><content type="html" xml:base="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html">&lt;p&gt;When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the &lt;em&gt;config.yml&lt;/em&gt; file.&lt;/p&gt;
+  &lt;li&gt;unordered list&lt;/li&gt;
+  &lt;li&gt;unordered list&lt;/li&gt;
+  &lt;li&gt;unordered list 
+ `&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First ordered list item&lt;/li&gt;
+  &lt;li&gt;Another item
+    &lt;ul&gt;
+      &lt;li&gt;Unordered sub-list.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Actual numbers don’t matter, just that it’s a number&lt;/li&gt;
+  &lt;li&gt;Ordered sub-list&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And another item.&lt;/p&gt;
+
+    &lt;p&gt;You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).&lt;/p&gt;
+
+    &lt;p&gt;To have a line break without a paragraph, you will need to use two trailing spaces.
+Note that this line is separate, but within the same paragraph.
+(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unordered list can use asterisks&lt;/li&gt;
+  &lt;li&gt;Or minuses&lt;/li&gt;
+  &lt;li&gt;Or pluses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[inline-style link with title](https://www.google.com &quot;Google's Homepage&quot;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot; title=&quot;Google's Homepage&quot;&gt;inline-style link with title&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[relative links](../blob/master/LICENSE)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../blob/master/LICENSE&quot;&gt;relative links&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Inline-style:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;![alt text](https://media.giphy.com/media/UkhHIZ37IDRGo/giphy.gif &quot;Andy from Parks and Rec&quot;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/UkhHIZ37IDRGo/giphy.gif&quot; alt=&quot;alt text&quot; title=&quot;Andy from Parks and Rec&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reference-style:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;![alt text][creep]
+[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif &quot;Do the Creep&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif&quot; alt=&quot;alt text&quot; title=&quot;Do the Creep&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks:&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;&amp;lt;p&amp;gt; code block &amp;lt;/p&amp;gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt; 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt; code block &amp;lt;/p&amp;gt; &lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Haters are just people who haven’t quite figured out partying.” - Andrew WK&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;/h2&gt;
+
+&lt;p&gt;Three or more&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;---&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;thank you to &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers&quot; title=&quot;github&quot;&gt;adamp’s markdown cheats&lt;/a&gt;&lt;/p&gt;</content><category term="code" /><summary type="html">One of the things that drew my into learning how Jekyll’s CMS works is that it uses markdown for all the posts. While this isn’t practical for a client to do when you hand over the reigns, it’s a really fun excercise for myself. And will help spruce up my future github readmes.
+
+[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif “Do the Creep”```
+[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif “Do the Creep”</summary></entry><entry><title type="html">Jekyll + Github Project Page</title><link href="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html" rel="alternate" type="text/html" title="Jekyll + Github Project Page" /><published>2016-11-29T13:40:29-08:00</published><updated>2016-11-29T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page</id><content type="html" xml:base="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html">&lt;p&gt;When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the &lt;em&gt;config.yml&lt;/em&gt; file.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
