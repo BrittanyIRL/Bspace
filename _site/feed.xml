@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-29T22:24:43-08:00</updated><id>http://localhost:4000//</id><title type="html">B’s Space</title><subtitle>This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.</subtitle><entry><title type="html">Jekyll + Github Project Page</title><link href="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html" rel="alternate" type="text/html" title="Jekyll + Github Project Page" /><published>2016-11-29T13:40:29-08:00</published><updated>2016-11-29T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page</id><content type="html" xml:base="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html">&lt;p&gt;When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the &lt;em&gt;config.yml&lt;/em&gt; file.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-13T18:55:32-08:00</updated><id>http://localhost:4000//</id><title type="html">B’s Space</title><subtitle>This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.</subtitle><entry><title type="html">B’s Personal Cheat Sheet To Markdown Language</title><link href="http://localhost:4000/code/2016/11/30/markdown.html" rel="alternate" type="text/html" title="B's Personal Cheat Sheet To Markdown Language" /><published>2016-11-30T13:40:29-08:00</published><updated>2016-11-30T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/30/markdown</id><content type="html" xml:base="http://localhost:4000/code/2016/11/30/markdown.html">&lt;p&gt;If you look at my github readmes you will maybe notice (depending on how you see things in life) my stubbornness in not using markdown or just using the same format over and over again. While this works fine for my github purposes, Jekyll is forcing me out of my markdown shell and hopefully into a better person. All these posts are in markdown! Since Jekyll is the programmer’s CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
+I’ve learned alot from Adam Pritchard’s &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;comprehensive markdownguide&lt;/a&gt;, but want to paraphrase and edit to my own purposes here.&lt;/p&gt;
+
+&lt;p&gt;Code Blocks:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt; code block &amp;lt;/p&amp;gt; &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Numbered lists:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;item one&lt;/li&gt;
+  &lt;li&gt;item two&lt;/li&gt;
+  &lt;li&gt;item three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Unordered lists:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;item one&lt;/li&gt;
+  &lt;li&gt;item two&lt;/li&gt;
+  &lt;li&gt;item three&lt;/li&gt;
+&lt;/ul&gt;</content><category term="code" /><summary type="html">If you look at my github readmes you will maybe notice (depending on how you see things in life) my stubbornness in not using markdown or just using the same format over and over again. While this works fine for my github purposes, Jekyll is forcing me out of my markdown shell and hopefully into a better person. All these posts are in markdown! Since Jekyll is the programmer’s CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure. 
+I’ve learned alot from Adam Pritchard’s comprehensive markdownguide, but want to paraphrase and edit to my own purposes here.</summary></entry><entry><title type="html">Jekyll + Github Project Page</title><link href="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html" rel="alternate" type="text/html" title="Jekyll + Github Project Page" /><published>2016-11-29T13:40:29-08:00</published><updated>2016-11-29T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page</id><content type="html" xml:base="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html">&lt;p&gt;When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the &lt;em&gt;config.yml&lt;/em&gt; file.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;

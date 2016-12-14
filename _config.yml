@@ -17,7 +17,7 @@ title: B's Space
 email: brittany.feenstra@gmail.com
 description: # this means to ignore newlines until "baseurl:"
   This is the blog and writing outlet of Brittany N. Feenstra (Brassell). Topics include front-end web development, music, general word vomit life updates, and any other darn thing of my choosing.
-baseurl: "/Bspace" # /Bspace
+baseurl: "" # /Bspace
 url: "https://brittanyirl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brittanyIRL
 twitter_url: https://twitter.com/BrittanyIRL

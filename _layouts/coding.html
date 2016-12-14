@@ -7,9 +7,9 @@ layout: default
   {% if post.url %}
   <article>
     <div>
-    	<a title="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}"><h2 class="postTitle">{{ post.title }}</h2></a>
+    	<a title="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}"><h1 class="postTitle">{{ post.title }}</h1></a>
     	<div class="postDetails">
-        <p>{{post.shorttitle}}//</p>
+        <h2 class="shortTitle">{{post.shorttitle}}//</h2>
         <span>{{ post.category }}</span>
         <span>{{ post.date | date: "%B %-d, %Y" }}</span>
       </div>
