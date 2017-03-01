@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-13T22:20:25-08:00</updated><id>http://localhost:4000//</id><title type="html">BrittanyIRL</title><subtitle>The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.</subtitle><entry><title type="html">B’s Personal Cheat Sheet To Markdown Language</title><link href="http://localhost:4000/code/2016/11/30/markdown.html" rel="alternate" type="text/html" title="B's Personal Cheat Sheet To Markdown Language" /><published>2016-11-30T13:40:29-08:00</published><updated>2016-11-30T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/30/markdown</id><content type="html" xml:base="http://localhost:4000/code/2016/11/30/markdown.html">&lt;p&gt;One of the things that drew my into learning how Jekyll’s CMS works is that it uses markdown for all the posts. While this isn’t practical for a client to do when you hand over the reigns, it’s a really fun excercise for myself. And will help spruce up my future github readmes.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-28T18:53:47-07:00</updated><id>http://localhost:4000/</id><title type="html">BrittanyIRL</title><subtitle>The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.</subtitle><entry><title type="html">Seattle to Phoenix</title><link href="http://localhost:4000/life/2017/01/20/sea-to-phx.html" rel="alternate" type="text/html" title="Seattle to Phoenix" /><published>2017-01-20T14:40:29-07:00</published><updated>2017-01-20T14:40:29-07:00</updated><id>http://localhost:4000/life/2017/01/20/sea-to-phx</id><content type="html" xml:base="http://localhost:4000/life/2017/01/20/sea-to-phx.html">&lt;p&gt;Saying goodbye is hard, but it’s a lot easier when you take your #1 person with you and you have walkie talkies on your 1500 mile trip down the coast.&lt;/p&gt;
+
+&lt;p&gt;I decided to document our move from Seattle, the place both of us have called home for the past 8 years - where we did so much growing up and becoming of who we are. I think it’s important to recognize the places and people we have been to fully embrace the present and pursue the future - this is simply me capturing part of that pursuit. Moves are stressful, but if you treat it as a new adventure it’s actually pretty fun.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/274/32414935761_330e4d78f3_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Packing up in Seattle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/308/32385172192_f3145402a1_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Last night in Seattle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/553/32414932251_c93d455f29_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Last night in Seattle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/407/32385169432_e9bd2e7638_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Stopping over in Weed, CA - night 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/401/32385167002_92bfb04344_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Stopping over in Weed, CA - night 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/292/32385163692_e1c54db28f_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Stopping over in Weed, CA - night 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/570/32385160682_3cf18e3c60_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Stopping over in Weed, CA - night 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/341/31725680013_3cc7200e55_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Too early to be up, on the move again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/532/32385157062_ac136a5b84_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Too early to be up, on the move again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/4/3948/33179428815_155b759526_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Palm Springs, CA - day 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/3/2867/33137632526_6ef226ddca_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Palm Springs, CA - parking lot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/291/31725677233_2d0be00758_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Morning in Palm Springs, CA - day 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/618/32385154832_800663fb85_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Palm Springs, CA - parking lot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/604/32537763155_205f6a81c3_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Getting Fuel - day 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/530/31693965784_cd73c1892d_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Caravan view - finally in Arizona&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/3/2814/33179425685_d262443155_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Taking a moment before unpacking, Gerrit's parents met us with wine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/3/2948/33137631376_7185db9269_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Unpacking, Phoenix&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/4/3706/32364076113_4221cfe7b7_z.jpg&quot; alt=&quot;alt text&quot; title=&quot;Unpacking, Phoenix&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">Saying goodbye is hard, but it’s a lot easier when you take your #1 person with you and you have walkie talkies on your 1500 mile trip down the coast.</summary></entry><entry><title type="html">B’s Personal Cheat Sheet To Markdown Language</title><link href="http://localhost:4000/code/2016/11/30/markdown.html" rel="alternate" type="text/html" title="B's Personal Cheat Sheet To Markdown Language" /><published>2016-11-30T14:40:29-07:00</published><updated>2016-11-30T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/11/30/markdown</id><content type="html" xml:base="http://localhost:4000/code/2016/11/30/markdown.html">&lt;p&gt;One of the things that drew my into learning how Jekyll’s CMS works is that it uses markdown for all the posts. While this isn’t practical for a client to do when you hand over the reigns, it’s a really fun excercise for myself. And will help spruce up my future github readmes.&lt;/p&gt;
 
 &lt;p&gt;All these posts are in markdown! Since Jekyll is the programmer’s CMS it takes out some of the GUI that things like wordpress let you rely on in terms of your page structure.&lt;/p&gt;
 
@@ -46,15 +84,22 @@
 
 &lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
 
-&lt;p&gt;`1. ordered list item 
- 1. numbers do not matter, they update on their own
-   * Sub item, unordered
- 1. another list item
-   1. sub item, ordered
-   1. another sub item, ordered&lt;/p&gt;
+&lt;p&gt;`1. ordered list item&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;numbers do not matter, they update on their own
+    &lt;ul&gt;
+      &lt;li&gt;Sub item, unordered&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;another list item&lt;/li&gt;
+  &lt;li&gt;sub item, ordered&lt;/li&gt;
+  &lt;li&gt;another sub item, ordered&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;intended paragraph under a list item
- 1. another list item&lt;/p&gt;
+&lt;p&gt;intended paragraph under a list item&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;another list item&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;ul&gt;
   &lt;li&gt;unordered list&lt;/li&gt;
@@ -131,10 +176,7 @@ Note that this line is separate, but within the same paragraph.
 
 &lt;hr /&gt;
 
-&lt;p&gt;thank you to &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers&quot; title=&quot;github&quot;&gt;adamp’s markdown cheats&lt;/a&gt;&lt;/p&gt;</content><category term="code" /><summary type="html">One of the things that drew my into learning how Jekyll’s CMS works is that it uses markdown for all the posts. While this isn’t practical for a client to do when you hand over the reigns, it’s a really fun excercise for myself. And will help spruce up my future github readmes.
-
-[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif “Do the Creep”```
-[creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif “Do the Creep”</summary></entry><entry><title type="html">Jekyll + Github Project Page</title><link href="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html" rel="alternate" type="text/html" title="Jekyll + Github Project Page" /><published>2016-11-29T13:40:29-08:00</published><updated>2016-11-29T13:40:29-08:00</updated><id>http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page</id><content type="html" xml:base="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html">&lt;p&gt;When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the &lt;em&gt;config.yml&lt;/em&gt; file.&lt;/p&gt;
+&lt;p&gt;thank you to &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers&quot; title=&quot;github&quot;&gt;adamp’s markdown cheats&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="code" /><summary type="html">One of the things that drew my into learning how Jekyll’s CMS works is that it uses markdown for all the posts. While this isn’t practical for a client to do when you hand over the reigns, it’s a really fun excercise for myself. And will help spruce up my future github readmes. [creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif “Do the Creep”``` [creep]: https://media.giphy.com/media/CTWMRS2htKOac/giphy.gif “Do the Creep”</summary></entry><entry><title type="html">Jekyll + Github Project Page</title><link href="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html" rel="alternate" type="text/html" title="Jekyll + Github Project Page" /><published>2016-11-29T14:40:29-07:00</published><updated>2016-11-29T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page</id><content type="html" xml:base="http://localhost:4000/code/2016/11/29/jekyll-and-github-project-page.html">&lt;p&gt;When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the &lt;em&gt;config.yml&lt;/em&gt; file.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -156,7 +198,7 @@ Note that this line is separate, but within the same paragraph.
 
 &lt;p&gt;In the end, it really isn’t that complicated and leaves you thinking “wel that was easy”, but sifting through the various ways can be painful.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;When in doubt, consult the docs!&lt;/a&gt;&lt;/p&gt;</content><category term="code" /><summary type="html">When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the config.yml file.</summary></entry><entry><title type="html">Top 10 albums of 2016</title><link href="http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016.html" rel="alternate" type="text/html" title="Top 10 albums of 2016" /><published>2016-11-28T22:54:29-08:00</published><updated>2016-11-28T22:54:29-08:00</updated><id>http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016</id><content type="html" xml:base="http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016.html">&lt;ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;When in doubt, consult the docs!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="code" /><summary type="html">When I was setting this Jekyll site up I found a lot of documentation on how to configure it for use with User and Organization pages but not so much on project pages. The main difference in the set up happens in the config.yml file.</summary></entry><entry><title type="html">Top 10 albums of 2016</title><link href="http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016.html" rel="alternate" type="text/html" title="Top 10 albums of 2016" /><published>2016-11-28T23:54:29-07:00</published><updated>2016-11-28T23:54:29-07:00</updated><id>http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016</id><content type="html" xml:base="http://localhost:4000/lists/2016/11/28/top-10-albums-of-2016.html">&lt;ol&gt;
   &lt;li&gt;Savages - Adore Life&lt;/li&gt;
   &lt;li&gt;White Lies - Friends&lt;/li&gt;
   &lt;li&gt;Nada Surf - You Know Who You Are&lt;/li&gt;
@@ -176,16 +218,7 @@ Note that this line is separate, but within the same paragraph.
   &lt;li&gt;Hinds - Leave Me Alone&lt;/li&gt;
   &lt;li&gt;Essaie Pas - Demain est une autre nuit&lt;/li&gt;
   &lt;li&gt;Yung Thug - (for the year in general)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="lists" /><summary type="html">Savages - Adore Life
-  White Lies - Friends
-  Nada Surf - You Know Who You Are
-  Gucci Mane - Everybody Looking
-  The Lonely Island - Popstar: Never Stop Never Stopping
-  Head Wound City - A New Wave of Violence
-  Nice as F*ck - Nice as Fuck
-  Slaves - Take Control
-  Yeasayer - Amen &amp;amp; Goodbye
-  Trentemøller - Fixion</summary></entry><entry><title type="html">Turning 26</title><link href="http://localhost:4000/lists/2016/11/02/turning-26.html" rel="alternate" type="text/html" title="Turning 26" /><published>2016-11-02T14:40:29-07:00</published><updated>2016-11-02T14:40:29-07:00</updated><id>http://localhost:4000/lists/2016/11/02/turning-26</id><content type="html" xml:base="http://localhost:4000/lists/2016/11/02/turning-26.html">&lt;p&gt;Today is my 26th birthday. There’s alot that I’m really proud of about this year, some good milestones and things that I’ll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I’d been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren’t as new it’s time to think about what’s up next (though we all know plans are generally made to be broken).&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="lists" /><summary type="html">Savages - Adore Life White Lies - Friends Nada Surf - You Know Who You Are Gucci Mane - Everybody Looking The Lonely Island - Popstar: Never Stop Never Stopping Head Wound City - A New Wave of Violence Nice as F*ck - Nice as Fuck Slaves - Take Control Yeasayer - Amen &amp;amp; Goodbye Trentemøller - Fixion</summary></entry><entry><title type="html">Turning 26</title><link href="http://localhost:4000/lists/2016/11/02/turning-26.html" rel="alternate" type="text/html" title="Turning 26" /><published>2016-11-02T14:40:29-07:00</published><updated>2016-11-02T14:40:29-07:00</updated><id>http://localhost:4000/lists/2016/11/02/turning-26</id><content type="html" xml:base="http://localhost:4000/lists/2016/11/02/turning-26.html">&lt;p&gt;Today is my 26th birthday. There’s alot that I’m really proud of about this year, some good milestones and things that I’ll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I’d been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren’t as new it’s time to think about what’s up next (though we all know plans are generally made to be broken).&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Be intentional: With my husband, my friends, my family, my health&lt;/li&gt;
@@ -200,7 +233,7 @@ Note that this line is separate, but within the same paragraph.
   &lt;li&gt;Start writing educational front end tutorials&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;HBD to me &amp;lt;3&lt;/p&gt;</content><category term="lists" /><summary type="html">Today is my 26th birthday. There’s alot that I’m really proud of about this year, some good milestones and things that I’ll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I’d been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren’t as new it’s time to think about what’s up next (though we all know plans are generally made to be broken).</summary></entry><entry><title type="html">Using SCSS with Jekyll</title><link href="http://localhost:4000/code/2016/10/16/using-scss-with-jekyll.html" rel="alternate" type="text/html" title="Using SCSS with Jekyll" /><published>2016-10-16T14:40:29-07:00</published><updated>2016-10-16T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/10/16/using-scss-with-jekyll</id><content type="html" xml:base="http://localhost:4000/code/2016/10/16/using-scss-with-jekyll.html">&lt;p&gt;One of the great things about Jekyll is how easy it is to set up sass (or scss) within the project since it’s Ruby based.&lt;/p&gt;
+&lt;p&gt;HBD to me &amp;lt;3&lt;/p&gt;</content><author><name></name></author><category term="lists" /><summary type="html">Today is my 26th birthday. There’s alot that I’m really proud of about this year, some good milestones and things that I’ll always smile at when I think about them. It all makes me think about what I want to pursue this next year. Twenty-five was the year I officially called myself a web developer (the career I’d been pursuing in my nights and weekends for years) and it was the year I got married to the man of my dreams and my best friend! So newly wed + new career = alottttt going on. But all really good stuff. Now that things aren’t as new it’s time to think about what’s up next (though we all know plans are generally made to be broken).</summary></entry><entry><title type="html">Using SCSS with Jekyll</title><link href="http://localhost:4000/code/2016/10/16/using-scss-with-jekyll.html" rel="alternate" type="text/html" title="Using SCSS with Jekyll" /><published>2016-10-16T14:40:29-07:00</published><updated>2016-10-16T14:40:29-07:00</updated><id>http://localhost:4000/code/2016/10/16/using-scss-with-jekyll</id><content type="html" xml:base="http://localhost:4000/code/2016/10/16/using-scss-with-jekyll.html">&lt;p&gt;One of the great things about Jekyll is how easy it is to set up sass (or scss) within the project since it’s Ruby based.&lt;/p&gt;
 
 &lt;p&gt;Here’s a few great articles I’ve followed:
 &lt;a href=&quot;http://markdotto.com/2014/09/25/sass-and-jekyll/&quot;&gt;comprehensive and to the point - Mark Dotto’s blog&lt;/a&gt;
@@ -213,4 +246,4 @@ Note that this line is separate, but within the same paragraph.
 
 &lt;p&gt;I could honestly play with scss structure all day long, and like that article from garthdb.com I linked you to up there - it’s interesting thinking about the ways structuring this well can speed up your site load and channel resources smarter. Since this blog is jekyll based and I’m the sole contributor - it’s safe to assume I’ll be playing with how this is set up as time goes on.&lt;/p&gt;
 
-&lt;p&gt;Serious thanks to Mark Dotto and Dave Poon’s blogs for helping me wrap my head around this whole thing.&lt;/p&gt;</content><category term="code" /><summary type="html">One of the great things about Jekyll is how easy it is to set up sass (or scss) within the project since it’s Ruby based.</summary></entry></feed>
+&lt;p&gt;Serious thanks to Mark Dotto and Dave Poon’s blogs for helping me wrap my head around this whole thing.&lt;/p&gt;</content><author><name></name></author><category term="code" /><summary type="html">One of the great things about Jekyll is how easy it is to set up sass (or scss) within the project since it’s Ruby based.</summary></entry></feed>
