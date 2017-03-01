@@ -18,8 +18,8 @@ subtitle: the life & code of brittany feenstra
 email: brittany.feenstra@gmail.com
 description: # this means to ignore newlines until "baseurl:"
   The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.
-baseurl: "/Bspace" # /Bspace
-url: "https://brittanyirl.github.io" # https://brittanyirl.github.io the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # /Bspace
+url: "https://brittanyirl.github.io/blog" # https://brittanyirl.github.io the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brittanyIRL
 twitter_url: https://twitter.com/BrittanyIRL
 github_username:  brittanyIRL
