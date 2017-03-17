@@ -1,36 +1,17 @@
+---
+# layout: default
+---
   <!DOCTYPE html>
   <html>
     <head>
-      <meta charset="utf-8" />
-<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
-
-
-<meta name="description" content="The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.">
-<meta property="og:description" content="The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing." />
-
-<meta name="author" content="" />
-
-
-<meta property="og:title" content="portfolio" />
-<meta property="twitter:title" content="portfolio" />
-
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-
-<script src="//fast.eager.io/9vNNlKdszd.js"></script>
-
-
+      {% include meta.html %}
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!-- Font Awesome borrowed from bootstrap -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="http://localhost:4000/css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/portfolio_styles.css" />
+      <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/portfolio_styles.css" />
       <!--google fontstack -->
       <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
@@ -46,13 +27,13 @@
           <ul id="portfolio-navigation" class="right hide-on-med-and-down"> <!-- add in mobile pull in out -->
             <li><a href="#about">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="http://localhost:4000/blog" target="_blank">Blog</a></li>
+            <li><a href="{{site.url}}/blog" target="_blank">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="side-nav" id="mobile"> <!-- add in mobile pull in out -->
             <li><a href="#about">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="http://localhost:4000/blog" target="_blank">Blog</a></li>
+            <li><a href="{{site.url}}/blog" target="_blank">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -77,7 +58,7 @@
           <div class="row">
             <div class="col s12 m6">
               <h5 class="skillsHeader">CSS3 &amp; SASS</h5>
-              <p>I believe in a responsive foundation - this means a strong outline (HTML) and stylesheets(CSS/SASS). I take pride in knowing my work can be viewed and enjoyed on a variety of screens. It's pretty cool to me what all can be accomplished with good CSS3. I love playing with transitions, animations, and typography in my downtime, and sometimes just for kicks I'll do things like make a <a href="https://github.com/BrittanyIRL/pen/grVdbJ" target="_blank">css BB8</a> from Star Wars.</p>
+              <p>I believe in a responsive foundation - this means a strong outline (HTML) and stylesheets(CSS/SASS). I take pride in knowing my work can be viewed and enjoyed on a variety of screens. It's pretty cool to me what all can be accomplished with good CSS3. I love playing with transitions, animations, and typography in my downtime, and sometimes just for kicks I'll do things like make a <a href="{{site.github_url}}/pen/grVdbJ" target="_blank">css BB8</a> from Star Wars.</p>
             </div>
             <div class="col s12 m6">
             <h5 class="skillsHeader">Javascript</h5>
@@ -98,7 +79,7 @@
       </div>
     </div>
     <div class="portfolio">
-      <div class="parallax-window" data-parallax="scroll" data-image-src="http://localhost:4000/images/parallax/alaska.jpg">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="{{site.url}}/images/parallax/alaska.jpg">
       </div> <!-- end parallax -->
     <h2 class="statementText scrollspy" id="portfolio">Here's some stuff I've done lately.</h2>
     <div class="container projects">
@@ -131,7 +112,7 @@
         </div>         
       </div>
       <div class="col s12 m12 l6"> 
-          <img src="http://localhost:4000/images/examples/elc.png" alt="coming soon page for ELC" class="portfolioImage">
+          <img src="{{site.url}}/images/examples/elc.png" alt="coming soon page for ELC" class="portfolioImage">
               
           </div>
       </div>
@@ -163,7 +144,7 @@
       </div>         
     </div>
     <div class="col s12 m12 l6"> 
-        <img src="http://localhost:4000/images/examples/visualizingpain.png" alt="Visualizing Pain Map" class="portfolioImage">
+        <img src="{{site.url}}/images/examples/visualizingpain.png" alt="Visualizing Pain Map" class="portfolioImage">
             
         </div>
     </div>
@@ -199,7 +180,7 @@
         </div>         
       </div>
       <div class="col s12 m12 l6"> 
-          <img src="http://localhost:4000/images/examples/showup.png" alt="screenshot of show up homepage" class="portfolioImage">
+          <img src="{{site.url}}/images/examples/showup.png" alt="screenshot of show up homepage" class="portfolioImage">
               
           </div>
       </div>
@@ -236,7 +217,7 @@
         </div>         
       </div>
       <div class="col s12 m12 l6"> 
-          <img src="http://localhost:4000/images/examples/rsvptree.png" alt="screenshot of rsvptree homepage" class="portfolioImage">
+          <img src="{{site.url}}/images/examples/rsvptree.png" alt="screenshot of rsvptree homepage" class="portfolioImage">
               
           </div>
       </div> 
@@ -267,7 +248,7 @@
           </div>
         </div>
       </div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="http://localhost:4000/images/parallax/peru.jpg">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="{{site.url}}/images/parallax/peru.jpg">
     </div> <!-- end parallax -->
     <div class="misc">
     <h2 class="statementText">Some Background</h2>
@@ -321,7 +302,7 @@
             <div class="row scrollspy" id="contact">
               <div class="col s12 m6">
                 <h5 class="white-text">Contact Me</h5>
-                <p class="grey-text text-lighten-4">If you want to get in touch with me, just use one of the links over on the right, or email me <span class="highlight"><a href="mailto:brittany.feenstra@gmail.com">brittany.feenstra@gmail.com</a></span>. I'd love to talk with you - I'm a big fan of coffee at all hours of the day as well as the occassional evening whiskey. When I'm not in front of my laptop I can be found outside doing something active, shooting a local concert, or at home baking something and watching Star Wars.</p>
+                <p class="grey-text text-lighten-4">If you want to get in touch with me, just use one of the links over on the right, or email me <span class="highlight"><a href="mailto:{{site.email}}">{{site.email}}</a></span>. I'd love to talk with you - I'm a big fan of coffee at all hours of the day as well as the occassional evening whiskey. When I'm not in front of my laptop I can be found outside doing something active, shooting a local concert, or at home baking something and watching Star Wars.</p>
               </div>
               <div class="col s12 m6 connect">
                 <h5 class="white-text">Message/Follow/Connect...</h5>
@@ -333,14 +314,14 @@
                   </div>
                   <div class="col s6 m6">
                   <ul class="external-links">
-                    <li class="resume"><a href="https://resume.creddle.io/resume/3vlzy0w3t9n"><i class="fa fa-file"></i>Resume PDF</a></li>
-                    <li class="github"><a href="https://github.com/BrittanyIRL"><i class="fa fa-github-alt"></i>Github</a></li>
-                    <li class="codepen"><a href="http://codepen.io/brittanyIRL/"><i class="fa fa-codepen"></i>Codepen</a></li>
-                    <li class="linkedin"><a href="https://www.linkedin.com/in/brittanybrassell"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
-                    <li class="twitter"><a href="https://twitter.com/BrittanyIRL"><i class="fa fa-twitter"></i>Twitter</a></li>
-                    <li class="instagram"><a href="https://www.instagram.com/brittanyfeenstra"><i class="fa fa-instagram"></i>Instagram</a></li>
-                    <li class="flickr"><a href="https://www.flickr.com/photos/42535594@N07"><i class="fa fa-flickr"></i>Flickr</a></li>
-                    <li class="blog"><a href="http://localhost:4000/blog"><i class="fa fa-paper-plane"></i>Blog</a></li>    
+                    <li class="resume"><a href="{{site.creddle_url}}"><i class="fa fa-file"></i>Resume PDF</a></li>
+                    <li class="github"><a href="{{site.github_url}}"><i class="fa fa-github-alt"></i>Github</a></li>
+                    <li class="codepen"><a href="{{site.codepen_url}}"><i class="fa fa-codepen"></i>Codepen</a></li>
+                    <li class="linkedin"><a href="{{site.linkedin_url}}"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+                    <li class="twitter"><a href="{{site.twitter_url}}"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li class="instagram"><a href="{{site.instagram_url}}"><i class="fa fa-instagram"></i>Instagram</a></li>
+                    <li class="flickr"><a href="{{site.flickr_url}}"><i class="fa fa-flickr"></i>Flickr</a></li>
+                    <li class="blog"><a href="{{site.url}}/blog"><i class="fa fa-paper-plane"></i>Blog</a></li>    
                   </ul>
                 </div>
               </div>
@@ -353,10 +334,10 @@
         </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="http://localhost:4000/javascript/materialize.min.js"></script>
+      <script src="{{ site.url }}/javascript/materialize.min.js"></script>
       <!-- for pretty headlines -->
-      <script type="text/javascript" src="http://localhost:4000/javascript/jquery.fittext.js"></script>
-      <script type="text/javascript" src="http://localhost:4000/javascript/parallax.min.js"></script>
-      <script src="http://localhost:4000/javascript/portfolio_script.js"></script>
+      <script type="text/javascript" src="{{ site.url }}/javascript/jquery.fittext.js"></script>
+      <script type="text/javascript" src="{{ site.url }}/javascript/parallax.min.js"></script>
+      <script src="{{ site.url }}/javascript/portfolio_script.js"></script>
     </body>
   </html>
