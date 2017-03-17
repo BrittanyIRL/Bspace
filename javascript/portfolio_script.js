@@ -13,7 +13,6 @@ $(".statementText").fitText(1.4, { minFontSize: '16px', maxFontSize: '55px'});
 // external link colors to match their site brands
 $(".external-links li").hover(function(){
 	if($(this).hasClass("resume")){
-		console.log('resume');
 		$(this).find(".fa").css("color", "#fff");
 	}
 	else if($(this).hasClass("github")){
