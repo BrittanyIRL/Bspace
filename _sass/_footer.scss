@@ -1,6 +1,7 @@
 
 .footer-links {
-	height: 30vh;
+	// width: 300px;
+	// height: 30vh;
 	display: flex;
 	flex-flow: flex-start;
 	flex-direction: column;
@@ -19,6 +20,10 @@
 		color: $darkpink;
 		width: .6rem;
 		margin: 0 auto;
+	}
+	li {
+		display: block;
+		width: 300px;
 	}
 }
 
