@@ -1,0 +1,31 @@
+
+.latest_slide {
+	width: 100vw;
+	height: 100vw;
+	background-color: salmon;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+
+}
+
+#latest_one {
+	background-image: url('https://www.placecage.com/c/800/600');
+
+}
+#latest_two {
+	background-image: url('https://www.placecage.com/c/800/600');
+}
+
+.navigation_description {
+  padding: 0 .5rem 1rem;
+  font-size: .6rem;
+  line-height: .8rem;
+}
+
+.side-nav li > a.link.disabled_link {
+  color: tan_bg !important;
+  &:hover {
+    color: tan_bg !important;
+  }
+}

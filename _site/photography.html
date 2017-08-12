@@ -27,61 +27,66 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Latest compiled and minified CSS -->
-<!-- 
+<!--
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cabin|PT+Sans" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 <script src="https://use.fontawesome.com/53b755bbc7.js"></script>
+<link rel="stylesheet" href="/css/jquery.fullpage.min.css">
+
 <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
   </head>
 
   <body>
-   <ul id="main-menu" class="side-nav fixed">
+   <ul id="main-menu" class="side-nav">
   <div class="navigation">
-    <li><h1><a class="siteTitle" href="http://localhost:4000/blog">BrittanyIRL<span>the life & code of brittany feenstra</span></a></h1></li>
+    <li><h1><a class="siteTitle" href="http://localhost:4000/blog">BrittanyIRL<span>photography by brittany feenstra</span></a></h1></li>
 
-    <li><a class="link" href="http://localhost:4000/coding">coding</a></li>
-    <li><a class="link" href="http://localhost:4000/irl">#realLife</a></li>
-    <li><a class="link" href="http://localhost:4000/photography">photography</a></li>
-    <li><a class="link" href="http://localhost:4000/about">about me</a></li> 
-    <li><a class="link" href="http://localhost:4000" description="Go to my portfolio">portfolio</a></li>
+    <li><a class="link disabled_link" href="http://localhost:4000/photography/music">music</a></li>
+    <li><a class="link disabled_link" href="http://localhost:4000/photography/lifestyle">lifestyle</a></li>
+    <li><a class="link disabled_link" href="http://localhost:4000/photography/nature">nature</a></li>
+    <li><a class="link disabled_link" href="http://localhost:4000/photography/travel">travel</a></li>
+    <li><a class="link" href="http://localhost:4000" description="Back to Main">back to blog</a></li>
     </div>
     <li><div class="divider"></div></li>
-
-    <div class="row">
-        <div class="footer-links col s12 m6">
-            <li class="github"><a class="link" href="https://github.com/BrittanyIRL"><i class="fa fa-github-alt"></i>Github</a></li>
-            <li class="codepen"><a class="link" href="http://codepen.io/brittanyIRL/"><i class="fa fa-codepen"></i>Codepen</a></li>
-            <li class="linkedin"><a class="link" href="https://www.linkedin.com/in/brittanybrassell"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
-        </div>
-        <div class="footer-links col s12 m6">
-            <li class="twitter"><a class="link" href="https://twitter.com/BrittanyIRL"><i class="fa fa-twitter"></i>Twitter</a></li>
-            <li class="instagram"><a class="link" href="https://www.instagram.com/brittanyfeenstra/"><i class="fa fa-instagram"></i>Instagram</a></li>
-            <li class="flickr"><a class="link" href="https://www.flickr.com/photos/42535594@N07"><i class="fa fa-flickr"></i>Flickr</a></li> 
-        </div>
-    </div>
+    <p class="navigation_description">here's a little blurb about my photography Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+  </div>
   </ul>
   <a href="#" data-activates="main-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 
 
-
-
-
-
     <div class="container" id="main-content">
-      <div class="comingSoon">
-	<h1>photography</h1>
-	<p>This page is getting a make over, check back soon</p>
+      <div id="fullpage_latest">
+  <div class="section">
+    <div class="slide latest_slide" id="latest_one"></div>
+    <div class="slide latest_slide" id="latest_two"></div>
+    <div class="slide latest_slide" id="latest_three"></div>
+    <div class="slide" id="latest_four">
+    <div class="bibliography">
+      <h1>Articles in this zine</h1>
+      <ul>
+      
+      </ul>
+      </div>
+    </div>
+
+  </div>
 </div>
+
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
+<script src="http://localhost:4000/javascript/jquery.fullpage.min.js" type="text/javascript"></script>
+<script src="http://localhost:4000/javascript/jquery.fullpage.extensions.min.js" type="text/javascript"></script>
 
-<script src="http://localhost:4000/javascript/script.js" type="text/javascript"></script>
+
+<script src="http://localhost:4000/javascript/photo_script.js" type="text/javascript"></script>
+
     	<!-- Google Analytics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

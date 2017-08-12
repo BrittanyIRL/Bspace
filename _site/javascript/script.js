@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	//home page 
+	//home page
 	$("#homeContainer > div").hover(function(){
 		$(this).find(".excerptHover").addClass("show");
 	},
@@ -34,7 +34,7 @@ $(".footer-links li").hover(function(){
 	else if($(this).hasClass("blog")){
 		$(this).find(".fa").css("color", "#d54e21");
 	}
-}, 
+},
 function(){
 	$(this).find(".fa").css("color", "#C15492");
 });
