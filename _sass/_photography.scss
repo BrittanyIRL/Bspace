@@ -1,31 +1,115 @@
-
+.fp-slidesNav.bottom {
+  display: none;
+}
 .latest_slide {
-	width: 100vw;
+	width: 80vw;
 	height: 100vw;
-	background-color: salmon;
+	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top center;
-
+}
+.photo_label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 1.5rem;
+  margin: -5% auto 0;
+  &.first_label {
+    margin-top: 39vh;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .details{
+    font-weight: 400;
+    font-size: .8rem;
+  }
 }
 
-#latest_one {
-	background-image: url('https://www.placecage.com/c/800/600');
+#shows_dandeacon_pickathon_2016 {
+  background-image: url('../images/photo-shows/dandeacon_pickathon_2016.jpg');
+}
+#shows_modernenglish_neumos_2016 {
+  background-image: url('../images/photo-shows/modernenglish_neumos_2016.jpg');
+}
+#shows_tysegall_pickathon_2016 {
+  background-image: url('../images/photo-shows/tysegall_pickathon_2016.jpg');
+}
+#shows_gallant_showbox_2016 {
+  background-image: url('../images/photo-shows/gallant_showbox_2016.jpg');
+}
+#shows_vincestaples_sasquatch_2016 {
+  background-image: url('../images/photo-shows/vincestaples_sasquatch_2016.jpg');
+}
+#shows_metz_barboza_2016 {
+  background-image: url('../images/photo-shows/metz_barboza_2016.jpg');
+}#shows_preoccupations_neumos_2016 {
+  background-image: url('../images/photo-shows/preoccupations_neumos_2016.jpg');
+}
+#shows_navvi_neptune_2016 {
+  background-image: url('../images/photo-shows/navvi_neptune_2016.jpg');
+}
+#shows_savages_sasquatch_2016 {
+  background-image: url('../images/photo-shows/savages_sasquatch_2016.jpg');
+}
+#shows_diarrehaplanet_tractor_2016 {
+  background-image: url('../images/photo-shows/diarrehaplanet_tractor_2016.jpg');
+}
+#shows_shamir_sasquatch_2016 {
+  background-image: url('../images/photo-shows/shamir_sasquatch_2016.jpg');
+}
+#shows_kinggizzard_sasquatch_2016 {
+  background-image: url('../images/photo-shows/kinggizzard_sasquatch_2016.jpg');
+}
+#shows_andersonpaak_bumbershoot_2016 {
+  background-image: url('../images/photo-shows/andersonpaak_bumbershoot_2016.jpg');
+}
+#shows_donormaal_chbp_2016 {
+  background-image: url('../images/photo-shows/donormaal_chbp_2016.jpg');
+}
+#shows_dinnerprincerama_barboza_2016 {
+  background-image: url('../images/photo-shows/dinnerprincerama_barboza_2016.jpg');
+}
+#shows_headwoundcity_chacha_2016 {
+  background-image: url('../images/photo-shows/headwoundcity_chacha_2016.jpg');
+}
+#shows_lapsley_chopsuey_2016 {
+  background-image: url('../images/photo-shows/lapsley_chopsuey_2016.jpg');
+}
 
-}
-#latest_two {
-	background-image: url('https://www.placecage.com/c/800/600');
-}
 
 .navigation_description {
   padding: 0 .5rem 1rem;
   font-size: .6rem;
   line-height: .8rem;
+  a.link{
+    color: $teal;
+    display: inline !important;
+    padding: 0 !important;
+    line-height: .6rem !important;
+    font-size: .6rem !important;
+
+  }
 }
 
 .side-nav li > a.link.disabled_link {
   color: tan_bg !important;
   &:hover {
     color: tan_bg !important;
+  }
+}
+
+.photo_footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: .5rem;
+  margin-right: 1rem;
+  font-size: .6rem;
+  i.fa {
+    padding-right: .25rem;
   }
 }
