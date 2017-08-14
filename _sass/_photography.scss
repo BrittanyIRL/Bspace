@@ -80,6 +80,21 @@
   background-image: url('../images/photo-shows/lapsley_chopsuey_2016.jpg');
 }
 
+.mobile {
+  margin-top: 2rem;
+  .mobile_photo_container {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-flow: column;
+    background-repeat: no-repeat;
+  	background-size: contain;
+  	background-position: top center;
+    .photo_label {
+      display: none;
+    }
+  }
+}
 
 .navigation_description {
   padding: 0 .5rem 1rem;
@@ -111,5 +126,23 @@
   font-size: .6rem;
   i.fa {
     padding-right: .25rem;
+  }
+}
+
+@media (min-width: 801px){
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 800px){
+  #fullpage_latest {
+    display: none;
+  }
+  .mobile {
+    display: block;
   }
 }
