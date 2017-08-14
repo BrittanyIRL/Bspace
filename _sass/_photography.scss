@@ -128,21 +128,30 @@
     padding-right: .25rem;
   }
 }
-
 @media (min-width: 801px){
-  .desktop {
-    display: block;
-  }
-  .mobile {
+  .for_mobile {
     display: none;
   }
 }
-
 @media (max-width: 800px){
-  #fullpage_latest {
+  .photo_label {
     display: none;
   }
-  .mobile {
-    display: block;
+  .latest_slide {
+  	height: 40vh;
+    margin: 0 auto;
+  }
+  .fp-section {
+    height: 40vh;
+  }
+  .section.fp-section.active {
+    margin-top: 3rem;
+    height: 40vh !important;
+  }
+  .mobile_warning {
+    margin: 0 auto;
+    width: 80vw;
+    font-weight: 600;
+    color: $darkpink;
   }
 }
