@@ -32,7 +32,7 @@ $('#fullpage_latest').fullpage({
     //Navigation
         navigation: false,
         showActiveTooltip: false,
-        slidesNavigation: false,
+        slidesNavigation: true,
         //Scrolling
         css3: true,
         scrollingSpeed: 900,
@@ -44,7 +44,7 @@ $('#fullpage_latest').fullpage({
         easingcss3: 'ease',
         loopBottom: false,
         loopTop: false,
-        loopHorizontal: false,
+        loopHorizontal: true,
         continuousVertical: false,
         continuousHorizontal: false,
         scrollHorizontally: false,
@@ -67,7 +67,7 @@ $('#fullpage_latest').fullpage({
         recordHistory: true,
 
         //Design
-        controlArrows: true,
+        controlArrows: false,
         verticalCentered: true,
         fixedElements: '#slide-out',
         responsiveWidth: '100vw',
