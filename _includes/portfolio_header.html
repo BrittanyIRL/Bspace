@@ -1,15 +1,13 @@
-<ul id="main-menu" class="side-nav fixed">
+<ul id="main-menu" class="side-nav">
   <div class="navigation">
-    <li><h1><a class="siteTitle" href="{{ site.url }}/blog">{{ site.title }}<span>{{ site.subtitle }}</span></a></h1></li>
+    <li><h1><a class="siteTitle" href="{{ site.url }}/portfolio">{{ site.portfolio_title }}<span>{{ site.portfolio_subtitle }}</span></a></h1></li>
 
-    <li><a class="link" href="{{ site.url }}/coding">coding</a></li>
-    <li><a class="link" href="{{ site.url }}/irl">#realLife</a></li>
-    <li><a class="link" href="{{ site.url }}/photography">photography</a></li>
-    <li><a class="link" href="{{ site.url }}/contact">about me</a></li> 
-    <li><a class="link" href="{{ site.url }}" description="Go to my portfolio">portfolio</a></li>
+    <li><a class="link" href="{{ site.url }}/resume">resume</a></li>
+    <li><a class="link" href="{{ site.url }}/projects">projects</a></li>
+    <li><a class="link" href="{{ site.url }}/contact">contact me</a></li>
+    <li><a class="link" href="{{ site.url }}/blog" description="Back to blog">back to blog</a></li>
     </div>
     <li><div class="divider"></div></li>
-
     <div class="row">
         <div class="footer-links col s12 m6">
             <li class="github"><a class="link" href="{{site.github_url}}"><i class="fa fa-github-alt"></i>Github</a></li>
@@ -22,5 +20,7 @@
             <li class="flickr"><a class="link" href="{{ site.flickr_url }}"><i class="fa fa-flickr"></i>Flickr</a></li>
         </div>
     </div>
+
+  </div>
   </ul>
   <a href="#" data-activates="main-menu" class="button-collapse"><i class="material-icons">menu</i></a>
