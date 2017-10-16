@@ -1,0 +1,27 @@
+.horizontal_list {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+
+  li {
+    // margin: 0 auto;
+    padding-right: .75rem;
+    .fa {
+      margin-right: .15rem;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        text-shadow: none;
+      }
+    }
+  }
+}
+
+.postContainer article ul.horizontal_list>li {
+  list-style-type: none;
+}

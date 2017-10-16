@@ -58,6 +58,10 @@
 			list-style-type: square;
 			list-style-position: inside;
 		}
+		p > img {
+			max-width: 100%;
+			object-fit: contain;
+		}
 	}
 	img.aboutImage {
 		width: 60vw;
@@ -88,5 +92,5 @@
 		margin: 0 auto;
 		padding: .5rem;
 		}
-	}	
+	}
 }

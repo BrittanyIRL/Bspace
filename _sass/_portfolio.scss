@@ -1,0 +1,164 @@
+.site_entry {
+    background-color: $tan;
+    background-image: url("/images/phx_sunset.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto 3rem;
+    text-align: center;
+    &#landing_one {
+       h1{
+        margin: 0 auto;
+      }
+      h2 {
+        padding: 2rem auto 8rem;
+        margin: 0 auto;
+      }
+    }
+    #landing_two {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+      margin-top: 2rem;
+      width: 60%;
+      p {
+        a {
+          height: 6rem;
+          padding: .5rem;
+          background-color: $darkpink;
+          color: $yellow;
+          &:hover {
+            background-color: $darkpink_bg;
+          }
+        }
+        // margin-top: 6rem auto;
+      }
+    }
+  }
+
+.column_container {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &.stretch {
+    align-items: stretch;
+  }
+  .column_stretch {
+    flex: 1;
+    margin: 0 auto;
+  }
+  img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+}
+
+.flex_row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .flex_child {
+    max-width: 15rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    &.flex_grow_2 {
+      flex: 2;
+    }
+    &.no_margin {
+      margin: 0;
+    }
+  }
+  &.flex_space_around {
+    justify-content: space-around;
+  }
+  &.flex_justify_start {
+    justify-content: flex-start;
+  }
+  &.flex_row_no_wrap {
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+  }
+}
+
+.portfolio_links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio_title,
+.portfolio_subtitle,
+.portfolio_body,
+.portfolio_image {
+  margin: 0;
+}
+.portfolio_title {
+  margin-top: .75rem;
+}
+
+.portfolio_subtitle {
+  span{
+  font-size: .6rem;
+  text-transform: capitalize;
+  color: $tan;
+    &:first-of-type {
+      &:after {
+        padding-left: .5rem;
+        content: "|";
+      }
+    }
+    &:last-of-type {
+      padding-left: .5rem;
+    }
+  }
+}
+.portfolio_body ul {
+  border-bottom: .05rem solid $tan_bg;
+  font-size: .8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  &.ul_vertical{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  li {
+    font-size: .6rem;
+  }
+}
+
+.portfolio_image {
+  border-top: .1rem solid $darkpink;
+}
+
+.box {
+  background-color: $lightpink_bg;
+  border: .2rem solid $darkpink_bg;
+  padding: 0 .5rem;
+  .h5 {
+    margin: 0;
+  }
+  li {
+    font-size: .8rem;
+    .fa {
+      color: $darkpink;
+    }
+  }
+}
