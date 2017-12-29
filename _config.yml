@@ -17,7 +17,7 @@ title: BrittanyIRL
 subtitle: the life & code of brittany feenstra
 photo_subtitle: photography by brittany feenstra
 portfolio_title: Brittany Feenstra
-portfolio_subtitle: development portfolio & projects 
+portfolio_subtitle: development portfolio & projects
 email: brittany.feenstra@gmail.com
 description: # this means to ignore newlines until "baseurl:"
   The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.
@@ -32,6 +32,9 @@ linkedin_url: https://www.linkedin.com/in/brittanybrassell
 codepen_url: http://codepen.io/brittanyIRL/
 github_url: https://github.com/BrittanyIRL
 creddle_url: https://resume.creddle.io/resume/3vlzy0w3t9n
+favicon_32: ./favicon-32x32.png
+favicon_96: ./favicon-96x96.png
+favicon_16: ./favicon-16x16.png
 
 # Build settings
 sass:
