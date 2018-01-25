@@ -1,6 +1,3 @@
-.hide_entry {
-  display: none;
-}
 .site_entry {
     background-color: $tan;
     background-image: url("/images/phx_sunset.jpg");
@@ -10,7 +7,7 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: none;
     flex-flow: column;
     justify-content: center;
     align-items: center;
