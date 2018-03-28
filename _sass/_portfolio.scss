@@ -133,7 +133,7 @@
   flex-direction: row;
   align-items: center;
   flex-wrap:wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   &.ul_vertical{
     flex-direction: column;
     justify-content: flex-start;
@@ -141,6 +141,7 @@
   }
   li {
     font-size: .6rem;
+    margin: auto .5rem;
   }
 }
 
@@ -159,6 +160,18 @@
     font-size: .8rem;
     .fa {
       color: $darkpink;
+    }
+  }
+}
+
+@media (max-width: 675px) {
+  .box {
+    .flex_row.flex_row_no_wrap {
+      flex-wrap: wrap;
+    }
+    .flex_child {
+      min-width: 100%;
+      padding: .5rem 1rem;
     }
   }
 }

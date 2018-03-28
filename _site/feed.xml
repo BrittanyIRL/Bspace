@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T21:37:54-07:00</updated><id>http://localhost:4000/</id><title type="html">BrittanyIRL</title><subtitle>The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.</subtitle><entry><title type="html">Seattle to Phoenix</title><link href="http://localhost:4000/life/2017/01/20/sea-to-phx.html" rel="alternate" type="text/html" title="Seattle to Phoenix" /><published>2017-01-20T14:40:29-07:00</published><updated>2017-01-20T14:40:29-07:00</updated><id>http://localhost:4000/life/2017/01/20/sea-to-phx</id><content type="html" xml:base="http://localhost:4000/life/2017/01/20/sea-to-phx.html">&lt;p&gt;Saying goodbye is hard, but it’s a lot easier when you take your #1 person with you and you have walkie talkies on your 1500 mile trip down the coast.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-27T23:14:32-07:00</updated><id>http://localhost:4000/</id><title type="html">BrittanyIRL</title><subtitle>The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.</subtitle><entry><title type="html">Best of 2017</title><link href="http://localhost:4000/lists/2017/12/29/top-10s-of-2017.html" rel="alternate" type="text/html" title="Best of 2017" /><published>2017-12-29T15:00:00-07:00</published><updated>2017-12-29T15:00:00-07:00</updated><id>http://localhost:4000/lists/2017/12/29/top-10s-of-2017</id><content type="html" xml:base="http://localhost:4000/lists/2017/12/29/top-10s-of-2017.html">&lt;h3 id=&quot;albums&quot;&gt;Albums&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Cut Copy - Haiku from Zero&lt;/li&gt;
+  &lt;li&gt;Arcade Fire - Everything Now&lt;/li&gt;
+  &lt;li&gt;The Killers - Wonderful, Wonderful&lt;/li&gt;
+  &lt;li&gt;Bleachers - Gone Now&lt;/li&gt;
+  &lt;li&gt;Poolside - Heat&lt;/li&gt;
+  &lt;li&gt;The XX - I see You&lt;/li&gt;
+  &lt;li&gt;LCD Sounsystem - American Dream&lt;/li&gt;
+  &lt;li&gt;Wolf Parade - Cry, Cry, Cry&lt;/li&gt;
+  &lt;li&gt;Blade Runner 2049 Soundtrack&lt;/li&gt;
+  &lt;li&gt;Alvvays - Antisocialites&lt;/li&gt;
+  &lt;li&gt;Fast &amp;amp; Furious - Fate of the Furious&lt;/li&gt;
+  &lt;li&gt;Charli XCX - Number 1 Angel&lt;/li&gt;
+  &lt;li&gt;Dude York - Sincerely&lt;/li&gt;
+  &lt;li&gt;Blondie - Pollinator&lt;/li&gt;
+  &lt;li&gt;Gorillaz - Humanz&lt;/li&gt;
+  &lt;li&gt;King Krule - The Ooz&lt;/li&gt;
+  &lt;li&gt;Gucci Mane - Mr. Davis&lt;/li&gt;
+  &lt;li&gt;Tyler, The Creator - Flower Boy&lt;/li&gt;
+  &lt;li&gt;Future Islands - Far Field&lt;/li&gt;
+  &lt;li&gt;Ibeyi - Ash&lt;/li&gt;
+  &lt;li&gt;Stormzy - Gang Signs &amp;amp; Prayer&lt;/li&gt;
+  &lt;li&gt;Ariel Pink - Dedicated to Bobby Jameson&lt;/li&gt;
+  &lt;li&gt;Ty Dolla $ign - Beach House 3&lt;/li&gt;
+  &lt;li&gt;Nine Inch Nails - Add Violence&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;singles&quot;&gt;Singles&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;MGMT - Little Dark Age&lt;/li&gt;
+  &lt;li&gt;Fischerspooner - Have Fun Tonight&lt;/li&gt;
+  &lt;li&gt;Chromeo - Juice&lt;/li&gt;
+  &lt;li&gt;Charli XCX - Boys&lt;/li&gt;
+  &lt;li&gt;Migos - Motor Sport&lt;/li&gt;
+  &lt;li&gt;Havana - Camila Cabello&lt;/li&gt;
+  &lt;li&gt;Selena Gomez - Fetish (ft. Gucci Mane)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;movies&quot;&gt;Movies&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bladerunner 2049&lt;/li&gt;
+  &lt;li&gt;Valerian&lt;/li&gt;
+  &lt;li&gt;Star Wars : The Last Jedi&lt;/li&gt;
+  &lt;li&gt;Get Out&lt;/li&gt;
+  &lt;li&gt;Baby Driver&lt;/li&gt;
+  &lt;li&gt;The Disaster Artist&lt;/li&gt;
+  &lt;li&gt;IT&lt;/li&gt;
+  &lt;li&gt;Lego Batman&lt;/li&gt;
+  &lt;li&gt;Kong: Skull Island&lt;/li&gt;
+  &lt;li&gt;Fast and Furious : Fate of the Furious&lt;/li&gt;
+  &lt;li&gt;XXX : Return of Xander Cage&lt;/li&gt;
+  &lt;li&gt;Underworld : Blood Wars&lt;/li&gt;
+  &lt;li&gt;Baywatch&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="lists" /><summary type="html">Albums Cut Copy - Haiku from Zero Arcade Fire - Everything Now The Killers - Wonderful, Wonderful Bleachers - Gone Now Poolside - Heat The XX - I see You LCD Sounsystem - American Dream Wolf Parade - Cry, Cry, Cry Blade Runner 2049 Soundtrack Alvvays - Antisocialites Fast &amp;amp; Furious - Fate of the Furious Charli XCX - Number 1 Angel Dude York - Sincerely Blondie - Pollinator Gorillaz - Humanz King Krule - The Ooz Gucci Mane - Mr. Davis Tyler, The Creator - Flower Boy Future Islands - Far Field Ibeyi - Ash Stormzy - Gang Signs &amp;amp; Prayer Ariel Pink - Dedicated to Bobby Jameson Ty Dolla $ign - Beach House 3 Nine Inch Nails - Add Violence</summary></entry><entry><title type="html">Seattle to Phoenix</title><link href="http://localhost:4000/life/2017/01/20/sea-to-phx.html" rel="alternate" type="text/html" title="Seattle to Phoenix" /><published>2017-01-20T14:40:29-07:00</published><updated>2017-01-20T14:40:29-07:00</updated><id>http://localhost:4000/life/2017/01/20/sea-to-phx</id><content type="html" xml:base="http://localhost:4000/life/2017/01/20/sea-to-phx.html">&lt;p&gt;Saying goodbye is hard, but it’s a lot easier when you take your #1 person with you and you have walkie talkies on your 1500 mile trip down the coast.&lt;/p&gt;
 
 &lt;p&gt;I decided to document our move from Seattle, the place both of us have called home for the past 8 years - where we did so much growing up and becoming of who we are. I think it’s important to recognize the places and people we have been to fully embrace the present and pursue the future - this is simply me capturing part of that pursuit. Moves are stressful, but if you treat it as a new adventure it’s actually pretty fun.&lt;/p&gt;
 
