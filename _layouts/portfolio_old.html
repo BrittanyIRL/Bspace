@@ -1,0 +1,311 @@
+---
+# layout: default
+---
+  <!DOCTYPE html>
+  <html>
+    <head>
+      {% include meta.html %}
+      <script src="//fast.eager.io/9vNNlKdszd.js"></script>
+
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Font Awesome borrowed from bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/portfolio_styles.css" />
+      <!--google fontstack -->
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+      <title>Brittany Feenstra</title>
+    </head>
+    <body>
+
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper navMine">
+          <a href="#top" class="brand-logo">Brittany <span class="highlight">Feenstra</span></a>
+          <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="portfolio-navigation" class="right hide-on-med-and-down"> <!-- add in mobile pull in out -->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="{{site.url}}/blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile"> <!-- add in mobile pull in out -->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="{{site.url}}/blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Main Content Starts Here -->
+    <div class="main">
+    <div class="intro">
+      <h1 id="intro">Hi, I'm Brittany. I'm a <span class="highlight">creative </span>problem-solver &amp; a tireless <span class="highlight">dream chaser</span>. Also, <span class="highlight">I love to code</span>. Nice to meet you!</h1>
+    </div><!--end intro -->
+    <div class="portfolio">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="{{site.url}}/images/parallax/alaska.jpg">
+      </div> <!-- end parallax -->
+    <h2 class="statementText scrollspy" id="portfolio">Here's some stuff I've done lately.</h2>
+    <div class="container projects">
+    <div class="row" id="elc-mints">
+       <h3>Every Little Counts Website</h3>
+       <div class="portfolioLinksContainer">
+          <a href="http://www.elccreative.com" title="view website"><i class="fa fa-desktop projectsFA"></i></a>
+          <a href="https://github.com/BrittanyIRL/pills" title="view source code"><i class="fa fa-github-alt projectsFA"></i> </a>
+        </div>
+         <div class="col s12 m12 l6">
+          <h4>A creative outlet</h4>
+          <p>Every Little Counts (ELC) is a creative entity my husband and I created together to give our various projects an internet home. I designed, built and maintain the site via github pages.</p>
+          <div class="row highlight">
+            <h4>Technologies used</h4>
+            <div class="col s6 m5">
+              <ul>
+                <li>Javascript</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+              </ul>
+            </div>
+            <div class="col s6 m5">
+              <ul>
+                <li>Github Pages</li>
+                <li>Animations</li>
+                <li>Materialize Framework</li>
+
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l6">
+          <img src="{{site.url}}/images/examples/elc.png" alt="coming soon page for ELC" class="portfolioImage">
+
+          </div>
+      </div>
+      <div class="row" id="elc-mints">
+       <h3>Visualizing Pain</h3>
+       <div class="portfolioLinksContainer">
+          <a href="https://visualizingpain.herokuapp.com/" title="view website"><i class="fa fa-desktop projectsFA"></i></a>
+          <a href="https://github.com/RebootSafety/dayone" title="view source code"><i class="fa fa-github-alt projectsFA"></i> </a>
+        </div>
+       <div class="col s12 m12 l6">
+        <h4>Reboot Safety</h4>
+        <p>This was a project I did for Reboot Safety in the wake of the 2016 presidential election as there was a significant spike in verbal and physical abuse towards other people types in our nation. Reboot safety is a tech nonprofit focused on helping recognize and support the power of every individual's contribution to safe, prosperous communities; this project was part of an initiative to begin aggregating data about harassment and discrimination to use at hackathons that will focus on creating tools to help make people safer!</p>
+        <div class="row highlight">
+          <h4>Technologies used</h4>
+          <div class="col s6 m5">
+            <ul>
+              <li>Javascript</li>
+              <li>CSS3</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+          <div class="col s6 m5">
+            <ul>
+              <li>D3.js</li>
+              <li>Socket.io</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="col s12 m12 l6">
+        <img src="{{site.url}}/images/examples/visualizingpain.png" alt="Visualizing Pain Map" class="portfolioImage">
+
+        </div>
+    </div>
+
+
+      <div class="row" id="showup">
+       <h3>Showup</h3>
+       <div class="portfolioLinksContainer">
+          <a href="https://showup2.herokuapp.com/archived" title="view website"><i class="fa fa-desktop projectsFA"></i></a>
+          <a href="https://github.com/BrittanyIRL/poster_pole" title="view source code"><i class="fa fa-github-alt projectsFA"></i> </a>
+        </div>
+         <div class="col s12 m12 l6">
+          <h4>A MEAN Stack App</h4>
+          <p>Showup is a digital manifestation of the poster-covered street poles I walk past every day in Seattle. Using the AngularJS MEAN stack I created a beta version of this site for my final project at General Assembly with full CRUD and RESTful routing for visitors, users, and admin to update and see poster content. This is my pet project and I am actively adding to it.</p>
+          <div class="row highlight">
+            <h4>Technologies used</h4>
+            <div class="col s6 m5">
+              <ul>
+                <li>AngularJS</li>
+                <li>Mongo</li>
+                <li>JWT</li>
+                <li>Heroku</li>
+              </ul>
+            </div>
+            <div class="col s6 m5">
+              <ul>
+                <li>HTML5</li>
+                <li>Cloudinary</li>
+                <li>CSS3</li>
+                <li>Bootstrap UI</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l6">
+          <img src="{{site.url}}/images/examples/showup.png" alt="screenshot of show up homepage" class="portfolioImage">
+
+          </div>
+      </div>
+      <div class="row" id="rsvpTree">
+       <h3>RSVPtree</h3>
+       <div class="portfolioLinksContainer">
+          <a href="https://rsvptree.herokuapp.com/" title="view website"><i class="fa fa-desktop projectsFA"></i></a>
+          <a href="https://github.com/BrittanyIRL/rsvpTree" title="view source code"><i class="fa fa-github-alt projectsFA"></i> </a>
+        </div>
+         <div class="col s12 m12 l6">
+          <h4>A Full-Stack App</h4>
+          <p>RSVPtree is a Node app built with ExpressJS. It streamlines the RSVP process for big parties like weddings and family reunions. It uses Sequelize to track the database and form information of various parties and keep them separate while focusing on what information is needed from guests to efficiently plan a party. It's refreshingly simple to use as a guest. But the best part about it is how it forms family trees to help learn family connections better. This comes in handy if the user doesn&apos;t know their better half&apos;s extended family super well!</p>
+          <div class="row highlight">
+            <h4>Technologies used</h4>
+            <div class="col s6 m5">
+              <ul>
+                <li>Express</li>
+                <li>Node.js</li>
+                <li>Sequelize</li>
+                <li>Heroku</li>
+                <li>Postgres</li>
+
+              </ul>
+            </div>
+            <div class="col s6 m5">
+              <ul>
+                <li>oAuth</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>MaterializeCSS</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l6">
+          <img src="{{site.url}}/images/examples/rsvptree.png" alt="screenshot of rsvptree homepage" class="portfolioImage">
+
+          </div>
+      </div>
+  </div>
+</div>
+
+
+       <div class="container honors">
+        <h3>And a few more things...</h3>
+        <div class="row">
+          <div class="col s12 m4">
+            <h5>Mints</h5>
+            <p>A Ren'PY game by ELC</p>
+            <a href="http://www.elccreative.com/mints.html" title="view website"><i class="fa fa-desktop"></i></a>
+            <a href="https://github.com/BrittanyIRL/pills" title="view source code"><i class="fa fa-github-alt"></i> </a>
+          </div>
+          <div class="col s12 m4">
+            <h5>Explor</h5>
+            <p>Ruby On Rails school project travel app.</p>
+             <a href="https://explor.herokuapp.com/" title="view website"><i class="fa fa-desktop"></i></a>
+            <a href="https://github.com/BrittanyIRL/explor-group-app" title="view source code"><i class="fa fa-github-alt"></i> </a>
+          </div>
+          <div class="col s12 m4">
+           <h5>Legends 2 Heaven</h5>
+            <p>Mourning David Bowie with jQuery animation</p>
+            <a href="http://brittanyirl.github.io/legendsNeverDie/" title="view website"><i class="fa fa-desktop"></i></a>
+            <a href="https://github.com/BrittanyIRL/legendsNeverDie" title="view source code"><i class="fa fa-github-alt"></i> </a>
+          </div>
+        </div>
+      </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="{{site.url}}/images/parallax/peru.jpg">
+    </div> <!-- end parallax -->
+    <div class="misc">
+    <h2 class="statementText">Some Background</h2>
+      <div class="container">
+
+        <div class="row">
+          <div class="col s12 m6">
+            <h5>My day to day</h5>
+            <p>I'm a front-end dev over at Brown Paper Tickets in Seattle, WA. I build cool stuff on the regular and help solve real world problems.</p>
+          </div>
+          <div class="col s12 m6">
+          <h5>Side hustles</h5>
+            <ul>
+              <li>Volunteer work helping girls learn to code</li>
+              <li>Building an app with Angular 2 &amp; Ionic</li>
+              <li>Concert photographer for KEXP.org</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <h5>Education</h5>
+              <ul>
+                <li>WDI Program, GA '15</li>
+                <li>B.A. in Sociology, SPU '12</li>
+              </ul>
+          </div>
+          <div class="col s12 m6 l4">
+            <h5>Past lives</h5>
+              <ul>
+                <li>Marketing Director</li>
+                <li>Accountant</li>
+                <li>Retail Buyer</li>
+                <li>Barista</li>
+              </ul>
+          </div>
+          <div class="col s12 m6 l4">
+            <h5>Toolbox</h5>
+              <ul>
+                <li>Familiar with Adobe Suite</li>
+                <li>Excellent Googling skills</li>
+                <li>Endless music knowledge</li>
+                <li>Concert Photographer</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer footerMine">
+          <div class="container">
+            <div class="row scrollspy" id="contact">
+              <div class="col s12 m6">
+                <h5 class="white-text">Contact Me</h5>
+                <p class="grey-text text-lighten-4">If you want to get in touch with me, just use one of the links over on the right, or email me <span class="highlight"><a href="mailto:{{site.email}}">{{site.email}}</a></span>. I'd love to talk with you - I'm a big fan of coffee at all hours of the day as well as the occassional evening whiskey. When I'm not in front of my laptop I can be found outside doing something active, shooting a local concert, or at home baking something and watching Star Wars.</p>
+              </div>
+              <div class="col s12 m6 connect">
+                <h5 class="white-text">Message/Follow/Connect...</h5>
+                <div class="row">
+                  <div class="col s6 m6">
+                    <div class="portrait">
+                      <div id="imageFlip"></div>
+                    </div>
+                  </div>
+                  <div class="col s6 m6">
+                  <ul class="external-links">
+                    <li class="resume"><a href="{{site.creddle_url}}"><i class="fa fa-file"></i>Resume PDF</a></li>
+                    <li class="github"><a href="{{site.github_url}}"><i class="fa fa-github-alt"></i>Github</a></li>
+                    <li class="codepen"><a href="{{site.codepen_url}}"><i class="fa fa-codepen"></i>Codepen</a></li>
+                    <li class="linkedin"><a href="{{site.linkedin_url}}"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+                    <li class="twitter"><a href="{{site.twitter_url}}"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li class="instagram"><a href="{{site.instagram_url}}"><i class="fa fa-instagram"></i>Instagram</a></li>
+                    <li class="flickr"><a href="{{site.flickr_url}}"><i class="fa fa-flickr"></i>Flickr</a></li>
+                    <li class="blog"><a href="{{site.url}}/blog"><i class="fa fa-paper-plane"></i>Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">Copyright <span id="current-year"></span> Brittany Feenstra
+            </div>
+          </div>
+        </footer>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="javascript/materialize.min.js"></script>
+      <!-- for pretty headlines -->
+      <script type="text/javascript" src="javascript/jquery.fittext.js"></script>
+      <script type="text/javascript" src="{{ site.url }}/javascript/parallax.min.js"></script>
+      <script src="{{ site.url }}/javascript/portfolio_script.js"></script>
+    </body>
+  </html>

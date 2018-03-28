@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="postContainer" id="{{ post.category }}">
+  <article>
+    <div>
+    	<h1 class="postTitle">{{ page.title }}</h1>
+      
+    	<div class="postDetails">
+    	<h2 class="shortTitle">{{page.shorttitle}}//</h2>
+      <span>{{ page.category }}</span><span>{{ page.date | date: "%B %-d, %Y" }}</span>
+      </div>
+      <p class="postExcerpt">{{ content }}</p>
+    </div>
+  </article>
+</div>

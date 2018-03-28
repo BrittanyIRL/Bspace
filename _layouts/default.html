@@ -1,0 +1,22 @@
+---
+# default layout
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.title }} : {{ site.subtitle }}</title>
+
+    {% include meta.html %}
+    {% include styles.html %}
+  </head>
+
+  <body>
+   {% include blog_header.html %}
+
+    <div class="container" id="main-content">
+      {{ content }}
+    </div>
+    {% include javascript.html %}
+    {% include analytics.html %}
+  </body>
+</html>

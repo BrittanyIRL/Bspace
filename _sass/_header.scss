@@ -1,0 +1,21 @@
+.navigation {
+	height: 60vh;
+	overflow: scroll;
+}
+a.siteTitle {
+	color: $darkpink;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	padding-bottom: 0;
+	border-bottom: .2rem solid $yellow;
+	&:hover {
+		color: $lightpink;
+		text-shadow: none;
+		text-decoration: none;
+	}
+	span {
+		font-size: .45rem;
+		line-height: .2rem;
+		display: block;
+	}
+}

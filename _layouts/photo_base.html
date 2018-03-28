@@ -1,0 +1,26 @@
+---
+# default layout
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.title }} : {{ site.subtitle }}</title>
+
+    {% include meta.html %}
+    {% include photo_styles.html %}
+  </head>
+
+  <body>
+   {% include photo_header.html %}
+
+    <div class="container" id="main-content">
+      {{ content }}
+    </div>
+    <footer class="photo_footer">
+      <!-- <p class="mobile_warning">(psst... I'm better on a bigger screen)</p> -->
+      <a class="link" target="_blank" href="https://www.flickr.com/photos/bbrassy/albums"><i class="fa fa-flickr" aria-hidden="true"></i>lots more on flickr</a>
+    </footer>
+    {% include photo_javascript.html %}
+    {% include analytics.html %}
+  </body>
+</html>

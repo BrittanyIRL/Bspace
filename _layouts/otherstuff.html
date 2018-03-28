@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="row" id="homeContainer">
+  {% for post in site.posts limit:4 %}
+    <div class="col s3 m3 l3 {{ post.category }}">
+    	<div class="excerptHover">
+    	<h2 class="homeTitle">{{ post.shorttitle }}</h2>
+    	<h4 class="homeDetails"><span>{{ post.category }}</span><span>{{ post.date | date: "%m/%d/%Y" }}</span></h4>
+    	<p class="homeMore"><a title="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}" class="link">Read More</a></p>
+    	</div>
+    </div>
+
+  {% endfor %}
+  </div>
