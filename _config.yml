@@ -32,9 +32,9 @@ linkedin_url: https://www.linkedin.com/in/brittanybrassell
 codepen_url: http://codepen.io/brittanyIRL/
 github_url: https://github.com/BrittanyIRL
 creddle_url: https://resume.creddle.io/resume/3vlzy0w3t9n
-favicon_32: ./favicon-32x32.png
-favicon_96: ./favicon-96x96.png
-favicon_16: ./favicon-16x16.png
+favicon_32: favicon-32x32.png
+favicon_96: favicon-96x96.png
+favicon_16: favicon-16x16.png
 
 # Build settings
 sass:
