@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-27T23:14:32-07:00</updated><id>http://localhost:4000/</id><title type="html">BrittanyIRL</title><subtitle>The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.</subtitle><entry><title type="html">Best of 2017</title><link href="http://localhost:4000/lists/2017/12/29/top-10s-of-2017.html" rel="alternate" type="text/html" title="Best of 2017" /><published>2017-12-29T15:00:00-07:00</published><updated>2017-12-29T15:00:00-07:00</updated><id>http://localhost:4000/lists/2017/12/29/top-10s-of-2017</id><content type="html" xml:base="http://localhost:4000/lists/2017/12/29/top-10s-of-2017.html">&lt;h3 id=&quot;albums&quot;&gt;Albums&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-12T22:18:40-07:00</updated><id>http://localhost:4000/</id><title type="html">BrittanyIRL</title><subtitle>The blog of Brittany Feenstra (Brassell). Featuring subjects like front-end web development, music, general word vomit life updates, and any other darn thing of her choosing.</subtitle><entry><title type="html">Javascript and Set Intervals</title><link href="http://localhost:4000/code/2018/05/12/set-intervals-countdown.html" rel="alternate" type="text/html" title="Javascript and Set Intervals" /><published>2018-05-12T10:40:29-07:00</published><updated>2018-05-12T10:40:29-07:00</updated><id>http://localhost:4000/code/2018/05/12/set-intervals-countdown</id><content type="html" xml:base="http://localhost:4000/code/2018/05/12/set-intervals-countdown.html">&lt;p&gt;This past week I was discussing with a coworker about how I feel like jQuery has made me extremely lazy as a developer, that same day I was also spinning up a possible new checkout process and needed some functionality to have a timer counting down until the cart expired. I thought to myself that this is the perfect chance to skip the jQuery and just use “vanilla” Javascript instead. With the way the frontend world is moving with things like React and Angular and Typescript and ES6 - jQuery isn’t really that necessary to speed development anymore, and using it will make the code we write more tedious to update to newer frameworks when the day comes to update, which it always does.&lt;/p&gt;
+
+&lt;p&gt;Building the timer meant dusting off more cobwebs than I’d like to admit - however, coding is like working out - if you don’t strengthen and stretch those particular muscles then it’s going to be a little harder, doesn’t mean that the muscle memory isn’t there or that building the new metaphorical muscles isn’t impossible. So, today, off the clock from my job I put myself back to the task to make a reusable countdown timer that I could just import into my script and call it a day, but potentially use for other purposes also. There’s absolutely room to expand this and that’s a good thing!&lt;/p&gt;
+
+&lt;p&gt;Let’s start with the function &lt;code class=&quot;highlighter-rouge&quot;&gt;startCountDown&lt;/code&gt;, this is the function fired on &lt;code class=&quot;highlighter-rouge&quot;&gt;setInterval&lt;/code&gt;. In it we’re passed the id which is what we’ll use to render an updated countdown to the DOM, the specific end date we’re looking for (which is the date time stamp from when the parent function is triggered) and an array of what time sections to show - so days, hours, minutes, seconds.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;let startCountDown = (id, endDate, displayArray) =&amp;gt; {
+  let now = new Date().getTime();
+  let distance = endDate - now;
+  let times = {
+    days : Math.floor(distance / (1000 * 60 * 60 * 24)),
+    hours : Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+    minutes : Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+    seconds : Math.floor((distance % (1000 * 60)) / 1000)
+  }
+
+  let display = [];
+  for (let i = 0; i &amp;lt; displayArray.length; i++){
+    display.push(`${times[displayArray[i]]}`, `${capitalizeFirstLetter(displayArray[i].slice(0,3))}`);
+  }
+
+  document.getElementById(id).innerHTML = display.join(&quot; &quot;);
+
+  if (distance &amp;lt; 0) {
+   clearInterval(countDown);
+    document.getElementById(id).innerHTML = &quot;EXPIRED&quot;;
+  }
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We find the difference between the passed in endDate parameter and the date time of the current moment and use that &lt;code class=&quot;highlighter-rouge&quot;&gt;distance&lt;/code&gt; to calculate the time between the &lt;code class=&quot;highlighter-rouge&quot;&gt;now&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;endDate&lt;/code&gt;. I lifted these calculations straight from MDN, I see no need to recreate the wheel when math is math is math.&lt;/p&gt;
+
+&lt;p&gt;Then, because I want this code to be reusable I’m looping through the passed in &lt;code class=&quot;highlighter-rouge&quot;&gt;displayArray&lt;/code&gt; to grab the matching &lt;code class=&quot;highlighter-rouge&quot;&gt;times&lt;/code&gt; object keys and only rendering those sections of that object. My specific want for this was a 15 minute timer, but I really don’t want to have to make this whole thing again if I suddenly need a timer for 5 days and 3 hours, this gives me the ability to be flexible.&lt;/p&gt;
+
+&lt;p&gt;So then, we render the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;display&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;And finish by checking to see if the &lt;code class=&quot;highlighter-rouge&quot;&gt;distance&lt;/code&gt; is 0 or less (never gonna happen) and when it is, we clear the interval so that the timer will stop. Here we could add an alert or a redirect. It’s probably a great spot to add an additional param passed through to &lt;code class=&quot;highlighter-rouge&quot;&gt;startCountDown&lt;/code&gt; with a clearFunction that is triggered within this if block so that it’s truly reusable.
+An iteresting thing I learned doing this in es6 - because I bound &lt;code class=&quot;highlighter-rouge&quot;&gt;startCountDown&lt;/code&gt; to be able to pass in some variables I actually have to clear the interval from &lt;em&gt;within&lt;/em&gt; the setInterval because of the scope of &lt;code class=&quot;highlighter-rouge&quot;&gt;this&lt;/code&gt;.  More on that &lt;a href=&quot;https://stackoverflow.com/questions/457826/pass-parameters-in-setinterval-function&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The function I’m actually calling to initiate this thing is called &lt;code class=&quot;highlighter-rouge&quot;&gt;coundDownClock&lt;/code&gt;, here I’m setting whatever the id for the element I want to show the timer results in, the total time to elapse (which right now is just minutes, but this could be adjusted) and an array with strings for what parts of time to display - it’s important that these strings match the time keys in the &lt;code class=&quot;highlighter-rouge&quot;&gt;startCountDown&lt;/code&gt; function.&lt;/p&gt;
+
+&lt;p&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;countDownClock&lt;/code&gt; we grab this moment date and then getMinutes and add the timeToElapse to it (this is where that whole, it could be adjusted for _non_minutes comes in, or you could do this setting of the endDate outside of &lt;code class=&quot;highlighter-rouge&quot;&gt;countDownClock&lt;/code&gt; so it’s a mute point).  Then you just call &lt;code class=&quot;highlighter-rouge&quot;&gt;setInterval&lt;/code&gt; from &lt;code class=&quot;highlighter-rouge&quot;&gt;countDownClock&lt;/code&gt; and all is done.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const countDownClock = (id, timeToElapse, displayArray) =&amp;gt; {
+  // establish start time from a date instance and then set the count we're looking for
+  let endDate = new Date();
+  endDate.getTime();
+  endDate.setMinutes(endDate.getMinutes() + timeToElapse); // if you wanted to do something other than minutes this would need to be adapted
+  setInterval(startCountDown.bind(this, id, endDate, displayArray), 1000);
+}
+
+let containerId = &quot;countdown&quot;;
+let timeToElapse = 15; // whole numbers only, how long the timer is going for
+let displayArray = ['minutes', 'seconds']; // parts of time to render on screen
+
+countDownClock(containerId, timeToElapse , displayArray);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Honestly, it’s not that complicated but it’s easy to get stuck when you let yourself write jQuery. Again, it’s like watching that 3rd episode of Buffy for the evening vs getting up and taking your puppy for a walk or going for a run. All good things take practice and the basics are never something we should stop practicing.&lt;/p&gt;
+
+&lt;p&gt;So here’s to foundations, and committing to building better iterations of ourselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/brittanyIRL/pen/MGXwoy&quot;&gt;View full code on codepen&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="code" /><summary type="html">This past week I was discussing with a coworker about how I feel like jQuery has made me extremely lazy as a developer, that same day I was also spinning up a possible new checkout process and needed some functionality to have a timer counting down until the cart expired. I thought to myself that this is the perfect chance to skip the jQuery and just use “vanilla” Javascript instead. With the way the frontend world is moving with things like React and Angular and Typescript and ES6 - jQuery isn’t really that necessary to speed development anymore, and using it will make the code we write more tedious to update to newer frameworks when the day comes to update, which it always does.</summary></entry><entry><title type="html">Best of 2017</title><link href="http://localhost:4000/lists/2017/12/29/top-10s-of-2017.html" rel="alternate" type="text/html" title="Best of 2017" /><published>2017-12-29T15:00:00-07:00</published><updated>2017-12-29T15:00:00-07:00</updated><id>http://localhost:4000/lists/2017/12/29/top-10s-of-2017</id><content type="html" xml:base="http://localhost:4000/lists/2017/12/29/top-10s-of-2017.html">&lt;h3 id=&quot;albums&quot;&gt;Albums&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;Cut Copy - Haiku from Zero&lt;/li&gt;
   &lt;li&gt;Arcade Fire - Everything Now&lt;/li&gt;
